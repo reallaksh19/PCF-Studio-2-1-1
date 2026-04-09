@@ -1,0 +1,466 @@
+diff --git a/src/Smart2Dcanvas_AppShell.tsx b/src/Smart2Dcanvas_AppShell.tsx
+index 8e45cc2..c8378d3 100644
+--- a/src/Smart2Dcanvas_AppShell.tsx
++++ b/src/Smart2Dcanvas_AppShell.tsx
+@@ -4,6 +4,7 @@ import Smart2Dcanvas_TopToolbar from './Smart2Dcanvas_TopToolbar';
+ import Smart2Dcanvas_LeftToolRail from './Smart2Dcanvas_LeftToolRail';
+ import Smart2Dcanvas_PropertyPanel from './Smart2Dcanvas_PropertyPanel';
+ import Smart2Dcanvas_StatusBar from './Smart2Dcanvas_StatusBar';
++import Smart2Dcanvas_Minimap from './Smart2Dcanvas_Minimap';
+ 
+ const Smart2Dcanvas_AppShell: React.FC = () => {
+   return (
+@@ -14,6 +15,7 @@ const Smart2Dcanvas_AppShell: React.FC = () => {
+         <Smart2Dcanvas_LeftToolRail />
+         
+         <div className="flex-1 relative bg-gray-800">
++          <Smart2Dcanvas_Minimap />
+           <Smart2Dcanvas_CanvasViewport />
+         </div>
+         
+diff --git a/src/Smart2Dcanvas_CanvasViewport.tsx b/src/Smart2Dcanvas_CanvasViewport.tsx
+index 846fbfa..ddcd5ab 100644
+--- a/src/Smart2Dcanvas_CanvasViewport.tsx
++++ b/src/Smart2Dcanvas_CanvasViewport.tsx
+@@ -1,5 +1,5 @@
+ import React, { useRef, useEffect, useState } from 'react';
+-import { Stage, Layer, Image as KonvaImage, Line } from 'react-konva';
++import { Stage, Layer, Image as KonvaImage, Line, Circle } from 'react-konva';
+ import { useSceneStore } from './Smart2Dcanvas_SceneStore';
+ import useImage from 'use-image';
+ import { v4 as uuidv4 } from 'uuid';
+@@ -43,6 +43,7 @@ const Smart2Dcanvas_CanvasViewport: React.FC = () => {
+   const segments = useSceneStore((state) => state.segments);
+   const selectObject = useSceneStore((state) => state.selectObject);
+   const selectedIds = useSceneStore((state) => state.selectedIds);
++  const setCursor = useSceneStore((state) => state.setCursor);
+   
+   const stageRef = useRef<any>(null);
+   const [isPanning, setIsPanning] = useState(false);
+@@ -121,6 +122,9 @@ const Smart2Dcanvas_CanvasViewport: React.FC = () => {
+   };
+ 
+   const handlePointerMove = (e: any) => {
++    const pos = getRelativePointerPosition();
++    setCursor(pos.x, pos.y);
++
+     if (isPanning) {
+       const dx = e.evt.clientX - panStart.x;
+       const dy = e.evt.clientY - panStart.y;
+@@ -131,7 +135,6 @@ const Smart2Dcanvas_CanvasViewport: React.FC = () => {
+     }
+ 
+     if (activeTool === 'line' && isDrawing) {
+-      const pos = getRelativePointerPosition();
+       setDraftPoints([draftPoints[0], pos]);
+     }
+   };
+@@ -225,31 +228,75 @@ const Smart2Dcanvas_CanvasViewport: React.FC = () => {
+         {/* Layer for vector geometry */}
+         <Layer>
+           {/* Render committed segments */}
+-          {Object.values(segments).map((seg) => (
+-            <Line
+-              key={seg.id}
+-              points={seg.points.flatMap((p) => [p.x, p.y])}
+-              stroke={selectedIds.has(seg.id) ? '#3b82f6' : '#9ca3af'}
+-              strokeWidth={selectedIds.has(seg.id) ? 3 : 2}
+-              tension={seg.geometryKind === 'spline' ? 0.5 : 0}
+-              hitStrokeWidth={10}
+-              onClick={() => {
+-                if (activeTool === 'select') selectObject(seg.id);
+-              }}
+-              onTap={() => {
+-                if (activeTool === 'select') selectObject(seg.id);
+-              }}
+-              onMouseEnter={(e) => {
+-                if (activeTool === 'select') {
+-                  const container = e.target.getStage()?.container();
+-                  if (container) container.style.cursor = 'pointer';
+-                }
+-              }}
+-              onMouseLeave={(e) => {
+-                if (activeTool === 'select') {
+-                  const container = e.target.getStage()?.container();
+-                  if (container) container.style.cursor = 'crosshair';
+-                }
+-              }}
+-            />
+-          ))}
++          {Object.values(segments).map((seg) => {
++            const isSelected = selectedIds.has(seg.id);
++            const strokeColor = isSelected ? '#eab308' : '#9ca3af';
++            
++            // If dx and dy are 0, it's a vertical riser (dot)
++            const p1 = seg.points[0];
++            const p2 = seg.points[seg.points.length - 1];
++            const isRiser = Math.abs(p1.x - p2.x) < 0.001 && Math.abs(p1.y - p2.y) < 0.001 && Math.abs((p1.z || 0) - (p2.z || 0)) > 0.001;
++
++            if (isRiser) {
++              return (
++                <Circle
++                  key={seg.id}
++                  x={p1.x}
++                  y={p1.y}
++                  radius={5}
++                  fill={strokeColor}
++                  stroke="#1f2937"
++                  strokeWidth={1}
++                  onClick={() => {
++                    if (activeTool === 'select') selectObject(seg.id);
++                  }}
++                  onTap={() => {
++                    if (activeTool === 'select') selectObject(seg.id);
++                  }}
++                  onMouseEnter={(e) => {
++                    if (activeTool === 'select') {
++                      const container = e.target.getStage()?.container();
++                      if (container) container.style.cursor = 'pointer';
++                    }
++                  }}
++                  onMouseLeave={(e) => {
++                    if (activeTool === 'select') {
++                      const container = e.target.getStage()?.container();
++                      if (container) container.style.cursor = 'crosshair';
++                    }
++                  }}
++                />
++              );
++            }
++
++            return (
++              <Line
++                key={seg.id}
++                points={seg.points.flatMap((p) => [p.x, p.y])}
++                stroke={strokeColor}
++                strokeWidth={isSelected ? 3 : 2}
++                tension={seg.geometryKind === 'spline' ? 0.5 : 0}
++                hitStrokeWidth={10}
++                onClick={() => {
++                  if (activeTool === 'select') selectObject(seg.id);
++                }}
++                onTap={() => {
++                  if (activeTool === 'select') selectObject(seg.id);
++                }}
++                onMouseEnter={(e) => {
++                  if (activeTool === 'select') {
++                    const container = e.target.getStage()?.container();
++                    if (container) container.style.cursor = 'pointer';
++                  }
++                }}
++                onMouseLeave={(e) => {
++                  if (activeTool === 'select') {
++                    const container = e.target.getStage()?.container();
++                    if (container) container.style.cursor = 'crosshair';
++                  }
++                }}
++              />
++            );
++          })}
+ 
+           {/* Render active drafting line */}
+           {isDrawing && draftPoints.length === 2 && (
+diff --git a/src/Smart2Dcanvas_Minimap.tsx b/src/Smart2Dcanvas_Minimap.tsx
+new file mode 100644
+index 0000000..8db67bd
+--- /dev/null
++++ b/src/Smart2Dcanvas_Minimap.tsx
+@@ -0,0 +1,78 @@
++import React, { useState, useRef } from 'react';
++import { Stage, Layer, Line } from 'react-konva';
++import { useSceneStore } from './Smart2Dcanvas_SceneStore';
++import { Maximize2, Minimize2 } from 'lucide-react';
++
++const Smart2Dcanvas_Minimap: React.FC = () => {
++  const [isExpanded, setIsExpanded] = useState(true);
++  
++  const segments = useSceneStore((state) => state.segments);
++  const selectedIds = useSceneStore((state) => state.selectedIds);
++  const panX = useSceneStore((state) => state.panX);
++  const panY = useSceneStore((state) => state.panY);
++  const scale = useSceneStore((state) => state.scale);
++  
++  const width = 200;
++  const height = 150;
++  
++  // Simplified minimap logic: we just render the segments scaled down
++  // A true minimap would find the bounding box of all objects.
++  // For now, we will apply a static scale factor or calculate it.
++  const minimapScale = 0.1; 
++
++  if (!isExpanded) {
++    return (
++      <div className="absolute top-4 right-4 z-10">
++        <button 
++          onClick={() => setIsExpanded(true)}
++          className="p-2 bg-gray-800 border border-gray-700 rounded text-gray-400 hover:text-white"
++          title="Show Minimap"
++        >
++          <Maximize2 size={16} />
++        </button>
++      </div>
++    );
++  }
++
++  return (
++    <div className="absolute top-4 right-4 z-10 bg-gray-900 border border-gray-700 rounded shadow-lg overflow-hidden flex flex-col">
++      <div className="flex justify-between items-center bg-gray-800 px-2 py-1 border-b border-gray-700">
++        <span className="text-xs font-semibold text-gray-300">Minimap</span>
++        <button 
++          onClick={() => setIsExpanded(false)}
++          className="text-gray-400 hover:text-white"
++        >
++          <Minimize2 size={14} />
++        </button>
++      </div>
++      <div className="bg-[#0f172a]">
++        <Stage width={width} height={height} scaleX={minimapScale} scaleY={minimapScale}>
++          <Layer>
++            {Object.values(segments).map((seg) => (
++              <Line
++                key={seg.id}
++                points={seg.points.flatMap((p) => [p.x, p.y])}
++                stroke={selectedIds.has(seg.id) ? '#3b82f6' : '#64748b'}
++                strokeWidth={selectedIds.has(seg.id) ? 4 / minimapScale : 2 / minimapScale}
++              />
++            ))}
++            
++            {/* Viewport Viewbox Indicator */}
++            <Line
++               points={[
++                 -panX/scale, -panY/scale,
++                 (-panX + width)/scale, -panY/scale,
++                 (-panX + width)/scale, (-panY + height)/scale,
++                 -panX/scale, (-panY + height)/scale,
++                 -panX/scale, -panY/scale,
++               ]}
++               stroke="red"
++               strokeWidth={1 / minimapScale}
++               dash={[5/minimapScale, 5/minimapScale]}
++            />
++          </Layer>
++        </Stage>
++      </div>
++    </div>
++  );
++};
++
++export default Smart2Dcanvas_Minimap;
+diff --git a/src/Smart2Dcanvas_SceneStore.ts b/src/Smart2Dcanvas_SceneStore.ts
+index 20b20e1..43b5d94 100644
+--- a/src/Smart2Dcanvas_SceneStore.ts
++++ b/src/Smart2Dcanvas_SceneStore.ts
+@@ -19,6 +19,8 @@ interface SceneState {
+   scale: number;
+   panX: number;
+   panY: number;
++  cursorX: number;
++  cursorY: number;
+ 
+   // Tool State
+   activeTool: ToolType;
+@@ -45,10 +47,14 @@ interface SceneState {
+   // Actions
+   setScale: (scale: number) => void;
+   setPan: (x: number, y: number) => void;
++  setCursor: (x: number, y: number) => void;
+   setActiveTool: (tool: ToolType) => void;
+   setCurrentElevation: (elevation: number) => void;
+   selectObject: (id: string, additive?: boolean) => void;
++  selectNext: () => void;
++  selectPrev: () => void;
+   clearSelection: () => void;
++  deleteSelected: () => void;
+   
+   addSegment: (segment: Segment) => void;
+   updateSegment: (id: string, updates: Partial<Segment>) => void;
+@@ -62,6 +68,8 @@ export const useSceneStore = create<SceneState>()(
+     scale: 1,
+     panX: 0,
+     panY: 0,
++    cursorX: 0,
++    cursorY: 0,
+     activeTool: 'select',
+     currentElevation: 0,
+     selectedIds: new Set(),
+@@ -74,6 +82,7 @@ export const useSceneStore = create<SceneState>()(
+ 
+     setScale: (scale) => set((state) => { state.scale = scale; }),
+     setPan: (x, y) => set((state) => { state.panX = x; state.panY = y; }),
++    setCursor: (x, y) => set((state) => { state.cursorX = x; state.cursorY = y; }),
+     setActiveTool: (tool) => set((state) => { state.activeTool = tool; }),
+     setCurrentElevation: (elevation) => set((state) => { state.currentElevation = elevation; }),
+     
+@@ -87,9 +96,55 @@ export const useSceneStore = create<SceneState>()(
+         state.selectedIds.add(id);
+       }
+     }),
++
++    selectNext: () => set((state) => {
++      const allIds = Object.keys(state.segments); // For now just walking segments
++      if (allIds.length === 0) return;
++      
++      const currentArr = Array.from(state.selectedIds);
++      let nextIndex = 0;
++      
++      if (currentArr.length > 0) {
++        const lastSelected = currentArr[currentArr.length - 1];
++        const currentIndex = allIds.indexOf(lastSelected);
++        if (currentIndex !== -1) {
++          nextIndex = (currentIndex + 1) % allIds.length;
++        }
++      }
++      
++      state.selectedIds.clear();
++      state.selectedIds.add(allIds[nextIndex]);
++    }),
++
++    selectPrev: () => set((state) => {
++      const allIds = Object.keys(state.segments);
++      if (allIds.length === 0) return;
++      
++      const currentArr = Array.from(state.selectedIds);
++      let prevIndex = allIds.length - 1;
++      
++      if (currentArr.length > 0) {
++        const lastSelected = currentArr[currentArr.length - 1];
++        const currentIndex = allIds.indexOf(lastSelected);
++        if (currentIndex !== -1) {
++          prevIndex = (currentIndex - 1 + allIds.length) % allIds.length;
++        }
++      }
++      
++      state.selectedIds.clear();
++      state.selectedIds.add(allIds[prevIndex]);
++    }),
+     
+     clearSelection: () => set((state) => { state.selectedIds.clear(); }),
+ 
++    deleteSelected: () => set((state) => {
++      state.selectedIds.forEach(id => {
++        delete state.segments[id];
++        // In a real app we'd delete nodes, inline items, etc.
++      });
++      state.selectedIds.clear();
++    }),
++
+     addSegment: (segment) => set((state) => {
+       state.segments[segment.id] = segment;
+     }),
+diff --git a/src/Smart2Dcanvas_StatusBar.tsx b/src/Smart2Dcanvas_StatusBar.tsx
+index 6c2bcc1..3a311bd 100644
+--- a/src/Smart2Dcanvas_StatusBar.tsx
++++ b/src/Smart2Dcanvas_StatusBar.tsx
+@@ -5,6 +5,8 @@ const Smart2Dcanvas_StatusBar: React.FC = () => {
+   const scale = useSceneStore((state) => state.scale);
+   const selectedIds = useSceneStore((state) => state.selectedIds);
+   const activeTool = useSceneStore((state) => state.activeTool);
++  const cursorX = useSceneStore((state) => state.cursorX);
++  const cursorY = useSceneStore((state) => state.cursorY);
+ 
+   return (
+     <div className="h-8 bg-gray-800 border-t border-gray-700 flex items-center px-4 shrink-0 text-xs text-gray-400 justify-between">
+@@ -14,7 +16,8 @@ const Smart2Dcanvas_StatusBar: React.FC = () => {
+       </div>
+       
+       <div className="flex space-x-6">
+-        {/* Placeholder for cursor X/Y if we track it globally later */}
++        <span>X: <span className="text-gray-200">{cursorX.toFixed(2)}</span></span>
++        <span>Y: <span className="text-gray-200">{cursorY.toFixed(2)}</span></span>
+         <span>Zoom: <span className="text-gray-200">{Math.round(scale * 100)}%</span></span>
+       </div>
+     </div>
+diff --git a/src/Smart2Dcanvas_TopToolbar.tsx b/src/Smart2Dcanvas_TopToolbar.tsx
+index d006c07..445d756 100644
+--- a/src/Smart2Dcanvas_TopToolbar.tsx
++++ b/src/Smart2Dcanvas_TopToolbar.tsx
+@@ -1,8 +1,9 @@
+ import React from 'react';
+ import { useSceneStore } from './Smart2Dcanvas_SceneStore';
+ import type { ToolType } from './Smart2Dcanvas_SceneStore';
+-import { MousePointer2, Move, Minus, Activity, Spline, ArrowLeft, ArrowRight, Download } from 'lucide-react';
++import { MousePointer2, Move, Minus, Activity, Spline, ArrowLeft, ArrowRight, Download, Trash2, ChevronLeft, ChevronRight, Plus } from 'lucide-react';
+ import { Smart2Dcanvas_ExportCSV } from './Smart2Dcanvas_ExportService';
++import { v4 as uuidv4 } from 'uuid';
+ 
+ const tools: { id: ToolType; icon: React.ReactNode; label: string }[] = [
+   { id: 'select', icon: <MousePointer2 size={18} />, label: 'Select' },
+@@ -17,6 +18,12 @@ const Smart2Dcanvas_TopToolbar: React.FC = () => {
+   const setActiveTool = useSceneStore((state) => state.setActiveTool);
+   const currentElevation = useSceneStore((state) => state.currentElevation);
+   const setCurrentElevation = useSceneStore((state) => state.setCurrentElevation);
++  const selectNext = useSceneStore((state) => state.selectNext);
++  const selectPrev = useSceneStore((state) => state.selectPrev);
++  const deleteSelected = useSceneStore((state) => state.deleteSelected);
++  const selectedIds = useSceneStore((state) => state.selectedIds);
++  const segments = useSceneStore((state) => state.segments);
++  const addSegment = useSceneStore((state) => state.addSegment);
+ 
+   const handleElevationChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+     const val = parseFloat(e.target.value);
+@@ -25,6 +32,30 @@ const Smart2Dcanvas_TopToolbar: React.FC = () => {
+     }
+   };
+ 
++  const handleAddRiser = () => {
++    // If we have exactly one selected segment, maybe we add a riser to its end.
++    // Or simpler: just add a "vertical riser" object at 0,0 for now to prove concept,
++    // or ideally at the cursor's last known position if we had it here.
++    // For now let's just make it if there's a selected object, we add a riser to its last point.
++    if (selectedIds.size === 1) {
++      const segId = Array.from(selectedIds)[0];
++      const seg = segments[segId];
++      if (seg && seg.points.length > 0) {
++        const lastPt = seg.points[seg.points.length - 1];
++        addSegment({
++          id: uuidv4(),
++          startNodeId: uuidv4(),
++          endNodeId: uuidv4(),
++          geometryKind: 'line', // could be 'riser' in a real app
++          points: [
++            { id: uuidv4(), x: lastPt.x, y: lastPt.y, z: lastPt.z || 0 },
++            { id: uuidv4(), x: lastPt.x, y: lastPt.y, z: currentElevation }
++          ],
++        });
++      }
++    }
++  };
++
+   return (
+     <div className="flex items-center h-12 bg-gray-800 border-b border-gray-700 px-4 shrink-0">
+       <div className="text-lg font-bold text-blue-400 mr-8">Smart2Dcanvas</div>
+@@ -57,6 +88,20 @@ const Smart2Dcanvas_TopToolbar: React.FC = () => {
+ 
+       <div className="w-px h-6 bg-gray-700 mx-4" />
+ 
++      <div className="flex items-center space-x-1">
++        <button onClick={selectPrev} className="p-2 rounded hover:bg-gray-700 text-gray-300" title="Select Previous">
++          <ChevronLeft size={18} />
++        </button>
++        <button onClick={selectNext} className="p-2 rounded hover:bg-gray-700 text-gray-300" title="Select Next">
++          <ChevronRight size={18} />
++        </button>
++        <button onClick={deleteSelected} className="p-2 rounded hover:bg-red-900/50 text-red-400 transition-colors" title="Delete Selected">
++          <Trash2 size={18} />
++        </button>
++      </div>
++
++      <div className="w-px h-6 bg-gray-700 mx-4" />
++
+       <div className="flex items-center space-x-2">
+         <span className="text-sm font-medium text-gray-400">EL (Z):</span>
+         <input
+@@ -65,6 +110,13 @@ const Smart2Dcanvas_TopToolbar: React.FC = () => {
+           onChange={handleElevationChange}
+           className="w-20 bg-gray-900 border border-gray-600 rounded px-2 py-1 text-sm text-gray-200 focus:outline-none focus:border-blue-500"
+         />
++        <button 
++          onClick={handleAddRiser}
++          className="p-1 rounded bg-blue-600 hover:bg-blue-500 text-white transition-colors"
++          title="Add Vertical Riser to Selected"
++        >
++          <Plus size={16} />
++        </button>
+       </div>
+ 
+       <div className="flex-1" />
