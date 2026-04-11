@@ -1,0 +1,142 @@
+/**
+ * pcf-parser.js — Parse PCF text into structured component objects
+ * Ported from 3Dmodelgeneratorforpcf_Parser.js (React) to vanilla JS.
+ *
+ * Exports:
+ *   parsePcf(rawText) → Component[]
+ */
+
+const COMP_TYPES = new Set([
+    'PIPE', 'ELBOW', 'TEE', 'FLANGE', 'VALVE',
+    'SUPPORT', 'BEND', 'REDUCER', 'CAP', 'GASKET', 'BOLT',
+    'REDUCER-CONCENTRIC', 'REDUCER-ECCENTRIC', 'OLET',
+    'INSTRUMENT', 'WELD', 'COUPLING', 'CROSS', 'STRAINER',
+    'BLIND-FLANGE', 'UNION', 'TRAP', 'FILTER',
+    'MISC-COMPONENT',
+    'MESSAGE-SQUARE', // Added to prevent it being absorbed by previous component
+]);
+
+let _idCounter = 0;
+const _uid = () => `comp-${++_idCounter}-${Date.now().toString(36)}`;
+
+/**
+ * Parse raw PCF text into an array of component objects.
+ * Each component has: id, type, points[], centrePoint, branch1Point, coOrds, bore, attributes{}.
+ * @param {string} rawText
+ * @returns {object[]}
+ */
+export const parsePcf = (rawText) => {
+    _idCounter = 0;
+    const components = [];
+    const lines = rawText.split('\n').map(l => l.trim());
+
+    let currentComp = null;
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+        if (!line) continue;
+
+        // Component start — keyword on its own line
+        if (COMP_TYPES.has(line)) {
+            if (currentComp) components.push(currentComp);
+            currentComp = {
+                id: _uid(),
+                type: line,
+                points: [],
+                centrePoint: null,
+                branch1Point: null,
+                coOrds: null,
+                bore: 0,
+                attributes: {},
+                rawLines: [],  // Store original lines for regeneration
+            };
+            continue;
+        }
+
+        if (!currentComp) continue;
+
+        const VALID_ATTR_KEYS = new Set([
+            'COMPONENT-ATTRIBUTE1', 'COMPONENT-ATTRIBUTE2', 'COMPONENT-ATTRIBUTE3',
+            'COMPONENT-ATTRIBUTE4', 'COMPONENT-ATTRIBUTE5', 'COMPONENT-ATTRIBUTE6',
+            'COMPONENT-ATTRIBUTE7', 'COMPONENT-ATTRIBUTE8', 'COMPONENT-ATTRIBUTE9',
+            'COMPONENT-ATTRIBUTE10', 'COMPONENT-ATTRIBUTE97', 'COMPONENT-ATTRIBUTE98',
+            'PIPELINE-REFERENCE', 'PIPING-CLASS', 'SKEY', 'SPEC', 'BEND-RADIUS',
+            'SUPPORT-REF', 'SUPPORT-TYPE', 'CAE', 'CROMWELL', 'ITEM-CODE', 'ITEM-DESCRIPTION',
+            'FABRICATION-ITEM', 'ERECTION-ITEM', 'OFFSHORE', 'TRACE', 'WEIGHT', 'ANGLE'
+        ]);
+
+        if (line.startsWith('END-POINT')) {
+            const parts = line.split(/\s+/);
+            if (parts.length >= 4) {
+                const pt = {
+                    x: parseFloat(parts[1]),
+                    y: parseFloat(parts[2]),
+                    z: parseFloat(parts[3]),
+                    bore: parts.length >= 5 ? parseFloat(parts[4]) : 0,
+                };
+                currentComp.points.push(pt);
+                // Use bore from first END-POINT as component bore if not set
+                if (currentComp.bore === 0) currentComp.bore = pt.bore;
+            }
+            currentComp.rawLines.push(line);
+        } else if (line.startsWith('CENTRE-POINT')) {
+            const parts = line.split(/\s+/);
+            if (parts.length >= 4) {
+                currentComp.centrePoint = {
+                    x: parseFloat(parts[1]),
+                    y: parseFloat(parts[2]),
+                    z: parseFloat(parts[3]),
+                    bore: parts.length >= 5 ? parseFloat(parts[4]) : 0,
+                };
+            }
+            currentComp.rawLines.push(line);
+        } else if (line.startsWith('BRANCH1-POINT')) {
+            const parts = line.split(/\s+/);
+            if (parts.length >= 4) {
+                currentComp.branch1Point = {
+                    x: parseFloat(parts[1]),
+                    y: parseFloat(parts[2]),
+                    z: parseFloat(parts[3]),
+                    bore: parts.length >= 5 ? parseFloat(parts[4]) : 0,
+                };
+            }
+            currentComp.rawLines.push(line);
+        } else if (line.startsWith('CO-ORDS')) {
+            const parts = line.split(/\s+/);
+            if (parts.length >= 4) {
+                currentComp.coOrds = {
+                    x: parseFloat(parts[1]),
+                    y: parseFloat(parts[2]),
+                    z: parseFloat(parts[3]),
+                    bore: parts.length >= 5 ? parseFloat(parts[4]) : 0,
+                };
+            }
+            currentComp.rawLines.push(line);
+        } else {
+            // Capture ALL attribute-like lines (COMPONENT-ATTRIBUTE, PIPELINE-REFERENCE, PIPING-CLASS, SKEY, etc.)
+            const parts = line.split(/\s+/);
+            if (parts.length > 1) {
+                const key = parts[0];
+                const val = parts.slice(1).join(' ');
+                if (VALID_ATTR_KEYS.has(key)) {
+                    currentComp.attributes[key] = val;
+                } else {
+                    console.warn(`[PCF Parser] Unknown keyword '${key}' on line ${i+1}. It will be ignored.`);
+                }
+            } else if (parts.length === 1 && !COMP_TYPES.has(line)) {
+                // Single-value attributes
+                if (VALID_ATTR_KEYS.has(line)) {
+                    currentComp.attributes[line] = '';
+                } else {
+                    console.warn(`[PCF Parser] Unknown keyword '${line}' on line ${i+1}. It will be ignored.`);
+                }
+            }
+            // Store raw line for regeneration fidelity
+            currentComp.rawLines.push(line);
+        }
+    }
+
+    if (currentComp) components.push(currentComp);
+
+    return components;
+};

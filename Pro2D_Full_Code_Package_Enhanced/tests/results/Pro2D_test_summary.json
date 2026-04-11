@@ -1,0 +1,26 @@
+[
+  {
+    "test": "Pro2D_phase1.pass.test.mjs",
+    "status": 0,
+    "stdout": "PASS phase1 {\n  entities: 17,\n  nodes: 25,\n  segments: 8,\n  supports: 6,\n  errors: 0,\n  warnings: 0\n}",
+    "stderr": ""
+  },
+  {
+    "test": "Pro2D_phase2.pass.test.mjs",
+    "status": 0,
+    "stdout": "PASS phase2 { baseElements: 15, finalElements: 17, autoSupports: 2, emitHits: 2 }",
+    "stderr": ""
+  },
+  {
+    "test": "Pro2D_phase3.pass.test.mjs",
+    "status": 0,
+    "stdout": "PASS phase3 { svgLength: 2333, svgRoundtrip: 8, dxfLines: 11, dxfRoundtrip: 11 }",
+    "stderr": ""
+  },
+  {
+    "test": "Pro2D_smoke.test.mjs",
+    "status": 0,
+    "stdout": "PASS smoke { mockEntities: 17, bundleSegments: 8, importedEntities: 4 }",
+    "stderr": ""
+  }
+]

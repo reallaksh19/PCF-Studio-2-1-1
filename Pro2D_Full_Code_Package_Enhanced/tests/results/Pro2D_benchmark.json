@@ -1,0 +1,18 @@
+{
+  "phase1LoadMs": 1.534,
+  "phase1ValidateMs": 0.448,
+  "phase1SceneBundleMs": 0.416,
+  "phase2EmitPipelineMs": 0.894,
+  "phase3Load10kMs": 74.201,
+  "phase3Validate10kMs": 24.158,
+  "totals": {
+    "mockEntities": 17,
+    "mockNodes": 25,
+    "mockIssues": 0,
+    "bigEntities": 10000,
+    "bigNodes": 20000,
+    "bigIssues": 0,
+    "finalElements": 17,
+    "autoSupports": 2
+  }
+}
