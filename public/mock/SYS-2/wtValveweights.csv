@@ -1,0 +1,1596 @@
+﻿Type,NSfraction,DN,RF-F/F,RTJ F/F,BW-F/F,RF/RTJ KG,BW KG,Rating,NS,TypeDesc,TypeNum
+SB,2,50,6,0,0,1,0,150,2,SPECTACLE BLIND,
+SB,3,80,6,0,0,1,0,150,3,SPECTACLE BLIND,
+SB,4,100,10,0,0,3,0,150,4,SPECTACLE BLIND,
+SB,6,150,13,0,0,5,0,150,6,SPECTACLE BLIND,
+SB,8,200,13,0,0,8,0,150,8,SPECTACLE BLIND,
+SB,10,250,16,0,0,15,0,150,10,SPECTACLE BLIND,
+SB,12,300,19,0,0,26,0,150,12,SPECTACLE BLIND,
+SB,14,350,19,0,0,32,0,150,14,SPECTACLE BLIND,
+SB,16,400,22,0,0,48,0,150,16,SPECTACLE BLIND,
+SB,18,450,25,0,0,59,0,150,18,SPECTACLE BLIND,
+SB,20,500,28,0,0,80,0,150,20,SPECTACLE BLIND,
+SB,24,600,32,0,0,125,0,150,24,SPECTACLE BLIND,
+SB,2,50,10,0,0,1,0,300,2,SPECTACLE BLIND,
+SB,3,80,10,0,0,2,0,300,3,SPECTACLE BLIND,
+SB,4,100,13,0,0,4,0,300,4,SPECTACLE BLIND,
+SB,6,150,16,0,0,9,0,300,6,SPECTACLE BLIND,
+SB,8,200,22,0,0,18,0,300,8,SPECTACLE BLIND,
+SB,10,250,25,0,0,28,0,300,10,SPECTACLE BLIND,
+SB,12,300,28,0,0,42,0,300,12,SPECTACLE BLIND,
+SB,14,350,32,0,0,66,0,300,14,SPECTACLE BLIND,
+SB,16,400,38,0,0,95,0,300,16,SPECTACLE BLIND,
+SB,18,450,41,0,0,123,0,300,18,SPECTACLE BLIND,
+SB,20,500,44,0,0,157,0,300,20,SPECTACLE BLIND,
+SB,24,600,51,0,0,253,0,300,24,SPECTACLE BLIND,
+SB,2,50,10,0,0,1,0,600,2,SPECTACLE BLIND,
+SB,3,80,13,0,0,3,0,600,3,SPECTACLE BLIND,
+SB,4,100,16,0,0,6,0,600,4,SPECTACLE BLIND,
+SB,6,150,22,0,0,15,0,600,6,SPECTACLE BLIND,
+SB,8,200,28,0,0,27,0,600,8,SPECTACLE BLIND,
+SB,10,250,35,0,0,52,0,600,10,SPECTACLE BLIND,
+SB,12,300,41,0,0,78,0,600,12,SPECTACLE BLIND,
+SB,14,350,44,0,0,96,0,600,14,SPECTACLE BLIND,
+SB,16,400,51,0,0,146,0,600,16,SPECTACLE BLIND,
+SB,18,450,54,0,0,178,0,600,18,SPECTACLE BLIND,
+SB,20,500,64,0,0,262,0,600,20,SPECTACLE BLIND,
+SB,24,600,73,0,0,390,0,600,24,SPECTACLE BLIND,
+SB,2,50,32,0,0,5,0,900,2,SPECTACLE BLIND,
+SB,3,80,35,0,0,9,0,900,3,SPECTACLE BLIND,
+SB,4,100,41,0,0,13,0,900,4,SPECTACLE BLIND,
+SB,6,150,48,0,0,26,0,900,6,SPECTACLE BLIND,
+SB,8,200,57,0,0,49,0,900,8,SPECTACLE BLIND,
+SB,10,250,64,0,0,73,0,900,10,SPECTACLE BLIND,
+SB,12,300,73,0,0,109,0,900,12,SPECTACLE BLIND,
+SB,14,350,83,0,0,155,0,900,14,SPECTACLE BLIND,
+SB,16,400,92,0,0,214,0,900,16,SPECTACLE BLIND,
+SB,18,450,102,0,0,307,0,900,18,SPECTACLE BLIND,
+SB,20,500,111,0,0,391,0,900,20,SPECTACLE BLIND,
+SB,24,600,133,0,0,660,0,900,24,SPECTACLE BLIND,
+SB,2,50,35,0,0,6,0,1500,2,SPECTACLE BLIND,
+SB,3,80,44,0,0,13,0,1500,3,SPECTACLE BLIND,
+SB,4,100,48,0,0,18,0,1500,4,SPECTACLE BLIND,
+SB,6,150,60,0,0,34,0,1500,6,SPECTACLE BLIND,
+SB,8,200,73,0,0,68,0,1500,8,SPECTACLE BLIND,
+SB,10,250,83,0,0,101,0,1500,10,SPECTACLE BLIND,
+SB,12,300,102,0,0,172,0,1500,12,SPECTACLE BLIND,
+SB,14,350,111,0,0,236,0,1500,14,SPECTACLE BLIND,
+SB,16,400,124,0,0,324,0,1500,16,SPECTACLE BLIND,
+SB,18,450,133,0,0,437,0,1500,18,SPECTACLE BLIND,
+VLV5,32,800,,,,3784,3060,300,32,Flanged Swing check Valve,
+VLV5,34,850,,,,4088,3315,300,34,Flanged Swing check Valve,
+VLV5,36,900,2083,2111,2083,4569,3655,300,36,Flanged Swing check Valve,
+VLV5,0+1/2,15,165,165,,6,5,600,0.5,Flanged Swing check Valve,
+VLV5,0+3/4,20,190,190,,11,9,600,0.75,Flanged Swing check Valve,
+VLV5,1,25,216,216,133,16,13,600,1,Flanged Swing check Valve,
+VLV5,1+1/4,32,229,229,146,27,22,600,1.5,Flanged Swing check Valve,
+VLV5,1+1/2,40,241,241,152,40,33,600,1.25,Flanged Swing check Valve,
+VLV5,2,50,292,295,178,54,45,600,2,Flanged Swing check Valve,
+VLV5,2+1/2,65,330,333,216,66,54,600,2.5,Flanged Swing check Valve,
+VLV5,3,80,356,359,254,78,64,600,3,Flanged Swing check Valve,
+VLV5,4,100,432,435,305,128,104,600,4,Flanged Swing check Valve,
+VLV5,5,125,508,511,381,178,148,600,5,Flanged Swing check Valve,
+VLV5,6,150,559,562,457,240,193,600,6,Flanged Swing check Valve,
+VLV5,8,200,660,663,584,363,294,600,8,Flanged Swing check Valve,
+VLV5,10,250,787,790,711,659,534,600,10,Flanged Swing check Valve,
+VLV5,12,300,838,841,813,836,677,600,12,Flanged Swing check Valve,
+VLV5,14,350,889,892,,944,759,600,14,Flanged Swing check Valve,
+VLV5,16,400,991,994,,1268,1020,600,16,Flanged Swing check Valve,
+VLV5,18,450,1092,1095,,1686,1360,600,18,Flanged Swing check Valve,
+VLV5,20,500,1194,1200,,2526,2057,600,20,Flanged Swing check Valve,
+VLV5,22,550,1295,1305,,3000,2300,600,22,Flanged Swing check Valve,
+VLV5,24,600,1397,1407,,3311,2678,600,24,Flanged Swing check Valve,
+VLV5,26,650,1448,1448,,3704,2975,600,26,Flanged Swing check Valve,
+VLV5,0+1/4,8,102,102,102,5,5,150,0.25,Flanged Swing check Valve,
+VLV5,0+3/8,10,102,102,102,5,5,150,0.375,Flanged Swing check Valve,
+VLV5,0+1/2,15,108,108,108,5,5,150,0.5,Flanged Swing check Valve,
+VLV5,0+3/4,20,117,117,117,7,6,150,0.75,Flanged Swing check Valve,
+VLV5,1,25,127,140,127,10,9,150,1,Flanged Swing check Valve,
+VLV5,1+1/4,32,140,153,140,16,13,150,1.5,Flanged Swing check Valve,
+VLV5,1+1/2,40,165,178,165,19,16,150,1.25,Flanged Swing check Valve,
+VLV5,2,50,203,216,203,20,17,150,2,Flanged Swing check Valve,
+VLV5,2+1/2,65,216,229,216,27,22,150,2.5,Flanged Swing check Valve,
+VLV5,3,80,241,254,241,30,25,150,3,Flanged Swing check Valve,
+VLV5,4,100,292,305,292,50,41,150,4,Flanged Swing check Valve,
+VLV5,5,125,330,343,330,72,59,150,5,Flanged Swing check Valve,
+VLV5,6,150,356,369,356,80,66,150,6,Flanged Swing check Valve,
+VLV5,8,200,495,508,495,136,113,150,8,Flanged Swing check Valve,
+VLV5,10,250,622,635,622,273,226,150,10,Flanged Swing check Valve,
+VLV5,12,300,698,711,698,355,295,150,12,Flanged Swing check Valve,
+VLV5,14,350,787,800,787,462,384,150,14,Flanged Swing check Valve,
+VLV5,16,400,864,877,864,571,473,150,16,Flanged Swing check Valve,
+VLV6,2,50,60,,,3,,150,2,Flanged wafer Valve,
+VLV6,3,80,73,,,7,,150,3,Flanged wafer Valve,
+VLV6,4,100,73,,,8,,150,4,Flanged wafer Valve,
+VLV6,6,150,98,,,18,,150,6,Flanged wafer Valve,
+VLV6,8,200,127,,,32,,150,8,Flanged wafer Valve,
+VLV6,10,250,146,,,53,,150,10,Flanged wafer Valve,
+VLV6,12,300,181,,,98,,150,12,Flanged wafer Valve,
+VLV6,14,350,184,,,100,,150,14,Flanged wafer Valve,
+VLV6,16,400,190,,,134,,150,16,Flanged wafer Valve,
+VLV6,18,450,203,,,144,,150,18,Flanged wafer Valve,
+VLV6,20,500,219,,,198,,150,20,Flanged wafer Valve,
+VLV6,24,600,222,,,307,,150,24,Flanged wafer Valve,
+VLV6,30,750,305,,,472,,150,30,Flanged wafer Valve,
+VLV6,36,900,368,,,683,,150,36,Flanged wafer Valve,
+VLV6,10,250,254,,,225,,2500,10,Flanged wafer Valve,
+VLV6,12,300,305,,,408,,2500,12,Flanged wafer Valve,
+Vlv7,2,50,44,,,3,,150,2,Wafer type Valve,
+Vlv7,3,80,48,,,5,,150,3,Wafer type Valve,
+Vlv7,4,100,54,,,9,,150,4,Wafer type Valve,
+Vlv7,5,125,,,,13,,150,5,Wafer type Valve,
+Vlv7,6,150,57,,,13,,150,6,Wafer type Valve,
+Vlv7,8,200,64,,,21,,150,8,Wafer type Valve,
+Vlv7,10,250,71,,,34,,150,10,Wafer type Valve,
+Vlv7,12,300,81,,,49,,150,12,Wafer type Valve,
+Vlv7,14,350,92,,,68,,150,14,Wafer type Valve,
+Vlv7,16,400,102,,,91,,150,16,Wafer type Valve,
+Vlv7,18,450,114,,,122,,150,18,Wafer type Valve,
+Vlv7,20,500,127,,,198,,150,20,Wafer type Valve,
+Vlv7,24,600,154,,,295,,150,24,Wafer type Valve,
+Vlv7,3,80,48,,,7,,300,3,Wafer type Valve,
+Vlv7,4,100,54,,,11,,300,4,Wafer type Valve,
+Vlv7,6,150,59,,,16,,300,6,Wafer type Valve,
+Vlv7,8,200,73,,,27,,300,8,Wafer type Valve,
+Vlv7,10,250,83,,,49,,300,10,Wafer type Valve,
+Vlv7,12,300,92,,,72,,300,12,Wafer type Valve,
+Vlv7,14,350,117,,,105,,300,14,Wafer type Valve,
+Vlv7,16,400,133,,,195,,300,16,Wafer type Valve,
+Vlv7,18,450,149,,,247,,300,18,Wafer type Valve,
+Vlv7,20,500,159,,,293,,300,20,Wafer type Valve,
+Vlv7,24,600,181,,,457,,300,24,Wafer type Valve,
+Vlv7,3,80,54,,,12,,600,3,Wafer type Valve,
+Vlv7,4,100,64,,,18,,600,4,Wafer type Valve,
+Vlv7,6,150,78,,,31,,600,6,Wafer type Valve,
+Vlv7,8,200,102,,,58,,600,8,Wafer type Valve,
+Vlv7,10,250,117,,,113,,600,10,Wafer type Valve,
+Vlv7,12,300,140,,,153,,600,12,Wafer type Valve,
+Vlv7,14,350,155,,,230,,600,14,Wafer type Valve,
+Vlv7,16,400,178,,,306,,600,16,Wafer type Valve,
+Vlv7,18,450,200,,,382,,600,18,Wafer type Valve,
+Vlv7,20,500,216,,,459,,600,20,Wafer type Valve,
+Vlv7,24,600,232,,,535,,600,24,Wafer type Valve,
+Vlv8,2,50,44,,,6,,150,2,Lug type Valve,
+Vlv8,3,80,48,,,7,,150,3,Lug type Valve,
+Vlv8,4,100,54,,,13,,150,4,Lug type Valve,
+Vlv8,5,125,,,,19,,150,5,Lug type Valve,
+Vlv8,6,150,57,,,19,,150,6,Lug type Valve,
+Vlv8,8,200,64,,,35,,150,8,Lug type Valve,
+Vlv8,10,250,71,,,55,,150,10,Lug type Valve,
+Vlv8,12,300,81,,,82,,150,12,Lug type Valve,
+Vlv8,14,350,92,,,129,,150,14,Lug type Valve,
+Vlv8,16,400,102,,,185,,150,16,Lug type Valve,
+Vlv8,18,450,114,,,241,,150,18,Lug type Valve,
+Vlv8,20,500,127,,,310,,150,20,Lug type Valve,
+Vlv8,24,600,154,,,473,,150,24,Lug type Valve,
+VLVX,3,,114,114,,30,,150,3,Triple Offset Flanged Butterfly valve,
+VLVX,4,,127,127,,37,,150,4,Triple Offset Flanged Butterfly valve,
+VLVX,6,,140,140,,50,,150,6,Triple Offset Flanged Butterfly valve,
+VLVX,8,,152,152,,89,,150,8,Triple Offset Flanged Butterfly valve,
+VLVX,10,,165,165,,120,,150,10,Triple Offset Flanged Butterfly valve,
+VLVX,12,,178,178,,176,,150,12,Triple Offset Flanged Butterfly valve,
+VLVX,14,,190,190,,226,,150,14,Triple Offset Flanged Butterfly valve,
+VLVX,16,,216,216,,289,,150,16,Triple Offset Flanged Butterfly valve,
+VLVX,18,,222,222,,331,,150,18,Triple Offset Flanged Butterfly valve,
+VLVX,20,,229,229,,432,,150,20,Triple Offset Flanged Butterfly valve,
+VLVX,24,,267,267,,609,,150,24,Triple Offset Flanged Butterfly valve,
+VLVX,28,,292,292,,1162,,150,28,Triple Offset Flanged Butterfly valve,
+VLVX,30,,318,318,,1432,,150,30,Triple Offset Flanged Butterfly valve,
+VLVX,32,,318,318,,1680,,150,32,Triple Offset Flanged Butterfly valve,
+VLVX,36,,330,330,,2227,,150,36,Triple Offset Flanged Butterfly valve,
+VLVX,40,,410,410,,2889,,150,40,Triple Offset Flanged Butterfly valve,
+VLVX,42,,410,410,,3038,,150,42,Triple Offset Flanged Butterfly valve,
+VLVX,48,,470,470,,4599,,150,48,Triple Offset Flanged Butterfly valve,
+VLVX,54,,530,530,,5934,,150,54,Triple Offset Flanged Butterfly valve,
+VLVX,60,,600,600,,8170,,150,60,Triple Offset Flanged Butterfly valve,
+VLVX,3,,114,114,,32,,300,3,Triple Offset Flanged Butterfly valve,
+VLVX,4,,127,127,,43,,300,4,Triple Offset Flanged Butterfly valve,
+VLVX,6,,140,140,,77,,300,6,Triple Offset Flanged Butterfly valve,
+VLVX,8,,152,152,,127,,300,8,Triple Offset Flanged Butterfly valve,
+VLVX,10,,165,165,,152,,300,10,Triple Offset Flanged Butterfly valve,
+VLVX,12,,178,178,,268,,300,12,Triple Offset Flanged Butterfly valve,
+VLVX,14,,190,190,,405,,300,14,Triple Offset Flanged Butterfly valve,
+VLVX,16,,216,216,,499,,300,16,Triple Offset Flanged Butterfly valve,
+VLVX,18,,222,222,,712,,300,18,Triple Offset Flanged Butterfly valve,
+VLVX,20,,229,229,,765,,300,20,Triple Offset Flanged Butterfly valve,
+VLVX,24,,267,267,,1161,,300,24,Triple Offset Flanged Butterfly valve,
+VLVX,3,,180,180,,42,,600,3,Triple Offset Flanged Butterfly valve,
+VLVX,4,,190,190,,83,,600,4,Triple Offset Flanged Butterfly valve,
+VLVX,6,,210,210,,147,,600,6,Triple Offset Flanged Butterfly valve,
+VLVX,8,,230,230,,291,,600,8,Triple Offset Flanged Butterfly valve,
+VLVX,10,,250,250,,444,,600,10,Triple Offset Flanged Butterfly valve,
+VLVX,12,,270,270,,578,,600,12,Triple Offset Flanged Butterfly valve,
+VLVX,14,,290,290,,670,,600,14,Triple Offset Flanged Butterfly valve,
+VLVX,16,,310,310,,1058,,600,16,Triple Offset Flanged Butterfly valve,
+VLVX,18,,330,330,,1172,,600,18,Triple Offset Flanged Butterfly valve,
+VLVX,20,,350,350,,1624,,600,20,Triple Offset Flanged Butterfly valve,
+VLVX,24,,390,390,,2219,,600,24,Triple Offset Flanged Butterfly valve,
+VLVX,6,,225,225,,197,,900,6,Triple Offset Flanged Butterfly valve,
+VLVX,8,,275,275,,437,,900,8,Triple Offset Flanged Butterfly valve,
+Flg,1,25,56,0,0,1,0,150,1,Weldneck Flange,1
+Flg,1+1/4,32,58,0,0,2,0,150,1.5,Weldneck Flange,1
+Flg,1+1/2,40,62,0,0,3,0,150,1.25,Weldneck Flange,1
+Flg,2,50,64,0,0,4,0,150,2,Weldneck Flange,1
+Flg,2+1/2,65,70,0,0,5,0,150,2.5,Weldneck Flange,1
+Flg,3,80,70,0,0,6,0,150,3,Weldneck Flange,1
+Flg,3+1/2,90,72,0,0,7,0,150,3.5,Weldneck Flange,1
+Flg,4,100,77,0,0,8,0,150,4,Weldneck Flange,1
+Flg,5,125,89,0,0,11,0,150,5,Weldneck Flange,1
+Flg,6,150,89,0,0,13,0,150,6,Weldneck Flange,1
+Flg,8,200,102,0,0,20,0,150,8,Weldneck Flange,1
+Flg,10,250,102,0,0,28,0,150,10,Weldneck Flange,1
+Flg,12,300,115,0,0,41,0,150,12,Weldneck Flange,1
+Flg,14,350,127,0,0,56,0,150,14,Weldneck Flange,1
+Flg,16,400,127,0,0,72,0,150,16,Weldneck Flange,1
+Flg,18,450,140,0,0,78,0,150,18,Weldneck Flange,1
+Flg,20,500,145,0,0,95,0,150,20,Weldneck Flange,1
+Flg,24,600,153,0,0,135,0,150,24,Weldneck Flange,1
+Flg,0+1/2,15,53,0,0,1,0,300,0.5,Weldneck Flange,1
+Flg,0+3/4,20,58,0,0,2,0,300,0.75,Weldneck Flange,1
+Flg,1,25,62,0,0,3,0,300,1,Weldneck Flange,1
+Flg,1+1/4,32,66,0,0,3,0,300,1.5,Weldneck Flange,1
+Flg,1+1/2,40,69,0,0,4,0,300,1.25,Weldneck Flange,1
+Flg,2,50,70,0,0,5,0,300,2,Weldneck Flange,1
+Flg,2+1/2,65,77,0,0,8,0,300,2.5,Weldneck Flange,1
+Flg,3,80,80,0,0,9,0,300,3,Weldneck Flange,1
+Flg,3+1/2,90,81,0,0,10,0,300,3.5,Weldneck Flange,1
+Flg,4,100,86,0,0,13,0,300,4,Weldneck Flange,1
+Flg,5,125,99,0,0,17,0,300,5,Weldneck Flange,1
+Flg,6,150,99,0,0,22,0,300,6,Weldneck Flange,1
+Flg,8,200,112,0,0,35,0,300,8,Weldneck Flange,1
+Flg,10,250,118,0,0,50,0,300,10,Weldneck Flange,1
+Flg,12,300,131,0,0,75,0,300,12,Weldneck Flange,1
+Flg,14,350,143,0,0,96,0,300,14,Weldneck Flange,1
+Flg,16,400,146,0,0,131,0,300,16,Weldneck Flange,1
+Flg,18,450,159,0,0,167,0,300,18,Weldneck Flange,1
+Flg,20,500,162,0,0,205,0,300,20,Weldneck Flange,1
+Flg,24,600,169,0,0,302,0,300,24,Weldneck Flange,1
+Flg,0+1/2,15,67,0,0,3,0,900,0.5,Weldneck Flange,1
+Flg,0+3/4,20,77,0,0,4,0,900,0.75,Weldneck Flange,1
+Flg,1,25,80,0,0,6,0,900,1,Weldneck Flange,1
+Flg,1+1/4,32,80,0,0,7,0,900,1.5,Weldneck Flange,1
+Flg,1+1/2,40,90,0,0,8,0,900,1.25,Weldneck Flange,1
+Flg,2,50,109,0,0,15,0,900,2,Weldneck Flange,1
+Flg,2+1/2,65,112,0,0,20,0,900,2.5,Weldneck Flange,1
+Flg,3,80,109,0,0,17,0,900,3,Weldneck Flange,1
+Flg,4,100,121,0,0,29,0,900,4,Weldneck Flange,1
+Flg,5,125,134,0,0,47,0,900,5,Weldneck Flange,1
+Flg,6,150,147,0,0,59,0,900,6,Weldneck Flange,1
+Flg,8,200,169,0,0,95,0,900,8,Weldneck Flange,1
+Flg,10,250,191,0,0,139,0,900,10,Weldneck Flange,1
+Flg,12,300,207,0,0,176,0,900,12,Weldneck Flange,1
+Flg,14,350,220,0,0,211,0,900,14,Weldneck Flange,1
+Flg,16,400,223,0,0,262,0,900,16,Weldneck Flange,1
+Flg,18,450,236,0,0,367,0,900,18,Weldneck Flange,1
+Flg,20,500,255,0,0,457,0,900,20,Weldneck Flange,1
+Flg,24,600,299,0,0,853,0,900,24,Weldneck Flange,1
+Flg,0+1/2,15,67,0,0,3,0,1500,0.5,Weldneck Flange,1
+Flg,0+3/4,20,77,0,0,4,0,1500,0.75,Weldneck Flange,1
+Flg,0+1/2,15,59,0,0,3,0,600,0.5,Weldneck Flange,1
+Flg,0+3/4,20,64,0,0,3,0,600,0.75,Weldneck Flange,1
+Flg,1,25,69,0,0,3,0,600,1,Weldneck Flange,1
+Flg,1+1/4,32,74,0,0,4,0,600,1.5,Weldneck Flange,1
+Flg,1+1/2,40,77,0,0,5,0,600,1.25,Weldneck Flange,1
+Flg,2,50,80,0,0,7,0,600,2,Weldneck Flange,1
+Flg,2+1/2,65,86,0,0,10,0,600,2.5,Weldneck Flange,1
+Flg,3,80,90,0,0,12,0,600,3,Weldneck Flange,1
+Flg,3+1/2,90,93,0,0,15,0,600,3.5,Weldneck Flange,1
+Flg,4,100,109,0,0,22,0,600,4,Weldneck Flange,1
+Flg,5,125,121,0,0,35,0,600,5,Weldneck Flange,1
+Flg,6,150,124,0,0,43,0,600,6,Weldneck Flange,1
+Flg,8,200,140,0,0,64,0,600,8,Weldneck Flange,1
+Flg,10,250,159,0,0,102,0,600,10,Weldneck Flange,1
+Flg,12,300,163,0,0,122,0,600,12,Weldneck Flange,1
+Flg,14,350,172,0,0,153,0,600,14,Weldneck Flange,1
+VLV3-1,2,50,451,454,451,119,,2500,2,Flanged Ball Valve -Full Bore,2
+VLV3-1,2,50,178,191,216,35,,150,2,Flanged Ball Valve -Full Bore,2
+VLV3-1,2,50,216,232,216,36,,300,2,Flanged Ball Valve -Full Bore,2
+VLV3-1,2+1/2,65,419,422,419,,,1500,2.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,2+1/2,65,508,514,508,,,2500,2.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,2+1/2,65,190,203,241,,,150,2.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,2+1/2,65,241,257,241,,,300,2.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,2+1/2,65,330,333,330,,,600,2.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,2+1/2,65,419,422,419,,,900,2.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,3,80,381,384,381,107,,900,3,Flanged Ball Valve -Full Bore,2
+VLV3-1,3,80,356,359,356,67,,600,3,Flanged Ball Valve -Full Bore,2
+VLV3-1,3,80,470,473,470,129,,1500,3,Flanged Ball Valve -Full Bore,2
+VLV3-1,3,80,203,216,282,42,,150,3,Flanged Ball Valve -Full Bore,2
+VLV3-1,3,80,578,584,578,270,,2500,3,Flanged Ball Valve -Full Bore,2
+VLV3-1,3,80,282,298,282,59,,300,3,Flanged Ball Valve -Full Bore,2
+VLV3-1,4,100,432,435,432,143,,600,4,Flanged Ball Valve -Full Bore,2
+VLV3-1,4,100,457,460,457,203,,900,4,Flanged Ball Valve -Full Bore,2
+VLV3-1,4,100,305,321,305,99,,300,4,Flanged Ball Valve -Full Bore,2
+VLV3-1,4,100,229,242,305,82,,150,4,Flanged Ball Valve -Full Bore,2
+VLV3-1,4,100,673,683,673,514,,2500,4,Flanged Ball Valve -Full Bore,2
+VLV3-1,4,100,546,549,546,253,,1500,4,Flanged Ball Valve -Full Bore,2
+VLV3-1,5,125,,,,,,600,5,Flanged Ball Valve -Full Bore,2
+VLV3-1,5,125,,,,,,150,5,Flanged Ball Valve -Full Bore,2
+VLV3-1,5,125,,,,,,900,5,Flanged Ball Valve -Full Bore,2
+VLV3-1,5,125,,,,,,2500,5,Flanged Ball Valve -Full Bore,2
+VLV3-1,5,125,,,,,,300,5,Flanged Ball Valve -Full Bore,2
+VLV3-1,5,125,,,,,,1500,5,Flanged Ball Valve -Full Bore,2
+VLV3-1,6,150,705,711,705,616,,1500,6,Flanged Ball Valve -Full Bore,2
+VLV3-1,6,150,914,927,914,1318,,2500,6,Flanged Ball Valve -Full Bore,2
+VLV3-1,6,150,610,613,610,365,,900,6,Flanged Ball Valve -Full Bore,2
+VLV3-1,6,150,394,407,457,199,,150,6,Flanged Ball Valve -Full Bore,2
+VLV3-1,6,150,403,419,457,227,,300,6,Flanged Ball Valve -Full Bore,2
+VLV3-1,6,150,559,562,559,342,,600,6,Flanged Ball Valve -Full Bore,2
+VLV3-1,8,200,1022,1038,1022,2112,,2500,8,Flanged Ball Valve -Full Bore,2
+VLV3-1,8,200,457,470,521,303,,150,8,Flanged Ball Valve -Full Bore,2
+VLV3-1,8,200,832,842,832,1045,,1500,8,Flanged Ball Valve -Full Bore,2
+VLV3-1,8,200,502,518,521,352,,300,8,Flanged Ball Valve -Full Bore,2
+VLV3-1,8,200,737,740,737,714,,900,8,Flanged Ball Valve -Full Bore,2
+VLV3-1,8,200,660,663,660,601,,600,8,Flanged Ball Valve -Full Bore,2
+SB,20,500,143,0,0,561,0,1500,20,SPECTACLE BLIND,
+SB,24,600,168,0,0,904,0,1500,24,SPECTACLE BLIND,
+SB,2,50,41,0,0,8,0,2500,2,SPECTACLE BLIND,
+SB,3,80,51,0,0,15,0,2500,3,SPECTACLE BLIND,
+SB,4,100,64,0,0,27,0,2500,4,SPECTACLE BLIND,
+SB,6,150,83,0,0,64,0,2500,6,SPECTACLE BLIND,
+SB,8,200,99,0,0,110,0,2500,8,SPECTACLE BLIND,
+SB,10,250,117,0,0,203,0,2500,10,SPECTACLE BLIND,
+SB,12,300,133,0,0,310,0,2500,12,SPECTACLE BLIND,
+VBF,2,50,20,0,0,3,0,150,2,Blind Flange,
+VBF,3,80,24,0,0,5,0,150,3,Blind Flange,
+VBF,4,100,24,0,0,9,0,150,4,Blind Flange,
+VBF,6,150,26,0,0,14,0,150,6,Blind Flange,
+VBF,8,200,29,0,0,22,0,150,8,Blind Flange,
+VBF,10,250,30,0,0,35,0,150,10,Blind Flange,
+VBF,12,300,32,0,0,53,0,150,12,Blind Flange,
+VBF,14,350,35,0,0,68,0,150,14,Blind Flange,
+VBF,16,400,37,0,0,89,0,150,16,Blind Flange,
+VBF,18,450,40,0,0,108,0,150,18,Blind Flange,
+VBF,20,500,43,0,0,140,0,150,20,Blind Flange,
+VBF,24,600,48,0,0,208,0,150,24,Blind Flange,
+VBF,26,650,43,0,0,258,0,150,26,Blind Flange,
+VBF,28,700,46,0,0,304,0,150,28,Blind Flange,
+VBF,30,750,46,0,0,349,0,150,30,Blind Flange,
+VBF,32,800,48,0,0,435,0,150,32,Blind Flange,
+VBF,34,850,51,0,0,496,0,150,34,Blind Flange,
+VBF,36,900,54,0,0,558,0,150,36,Blind Flange,
+VBF,38,950,,0,0,57,0,150,38,Blind Flange,
+VBF,42,1050,60,0,0,790,0,150,42,Blind Flange,
+VBF,2,50,22,0,0,5,0,300,2,Blind Flange,
+VBF,3,80,29,0,0,9,0,300,3,Blind Flange,
+VBF,4,100,32,0,0,14,0,300,4,Blind Flange,
+VBF,6,150,37,0,0,25,0,300,6,Blind Flange,
+VBF,8,200,42,0,0,40,0,300,8,Blind Flange,
+VBF,10,250,48,0,0,64,0,300,10,Blind Flange,
+VBF,12,300,51,0,0,93,0,300,12,Blind Flange,
+VBF,14,350,54,0,0,126,0,300,14,Blind Flange,
+VBF,16,400,58,0,0,149,0,300,16,Blind Flange,
+VBF,18,450,60,0,0,199,0,300,18,Blind Flange,
+VBF,20,500,64,0,0,249,0,300,20,Blind Flange,
+VBF,24,600,70,0,0,390,0,300,24,Blind Flange,
+VBF,26,650,89,0,0,523,0,300,26,Blind Flange,
+VBF,28,700,89,0,0,631,0,300,28,Blind Flange,
+VBF,30,750,94,0,0,745,0,300,30,Blind Flange,
+VBF,32,800,103,0,0,882,0,300,32,Blind Flange,
+VBF,34,850,103,0,0,995,0,300,34,Blind Flange,
+VBF,36,900,103,0,0,1152,0,300,36,Blind Flange,
+VBF,2,50,26,0,0,5,0,600,2,Blind Flange,
+VBF,3,80,32,0,0,11,0,600,3,Blind Flange,
+VBF,4,100,39,0,0,21,0,600,4,Blind Flange,
+VBF,6,150,48,0,0,45,0,600,6,Blind Flange,
+VBF,8,200,56,0,0,71,0,600,8,Blind Flange,
+VBF,10,250,64,0,0,118,0,600,10,Blind Flange,
+VBF,12,300,67,0,0,151,0,600,12,Blind Flange,
+VBF,14,350,70,0,0,184,0,600,14,Blind Flange,
+VBF,16,400,77,0,0,254,0,600,16,Blind Flange,
+VBF,18,450,83,0,0,323,0,600,18,Blind Flange,
+VBF,20,500,89,0,0,413,0,600,20,Blind Flange,
+VBF,24,600,102,0,0,637,0,600,24,Blind Flange,
+VBF,26,650,114,0,0,780,0,600,26,Blind Flange,
+VBF,28,700,117,0,0,908,0,600,28,Blind Flange,
+VBF,30,750,121,0,0,1025,0,600,30,Blind Flange,
+VBF,32,800,124,0,0,1183,0,600,32,Blind Flange,
+VBF,34,850,127,0,0,1310,0,600,34,Blind Flange,
+VBF,36,900,130,0,0,1536,0,600,36,Blind Flange,
+VBF,2,50,46,0,0,14,0,900,2,Blind Flange,
+VBF,3,80,46,0,0,19,0,900,3,Blind Flange,
+VBF,4,100,52,0,0,30,0,900,4,Blind Flange,
+VBF,6,150,63,0,0,60,0,900,6,Blind Flange,
+VBF,8,200,70,0,0,104,0,900,8,Blind Flange,
+VBF,10,250,77,0,0,150,0,900,10,Blind Flange,
+VBF,12,300,86,0,0,212,0,900,12,Blind Flange,
+VBF,14,350,93,0,0,261,0,900,14,Blind Flange,
+VBF,16,400,96,0,0,304,0,900,16,Blind Flange,
+VBF,18,450,109,0,0,445,0,900,18,Blind Flange,
+VBF,20,500,115,0,0,563,0,900,20,Blind Flange,
+VBF,24,600,147,0,0,1074,0,900,24,Blind Flange,
+VBF,30,750,163,0,0,1613,0,900,30,Blind Flange,
+VBF,2,50,46,0,0,14,0,1500,2,Blind Flange,
+VBF,3,80,55,0,0,27,0,1500,3,Blind Flange,
+VBF,4,100,61,0,0,40,0,1500,4,Blind Flange,
+VBF,6,150,90,0,0,88,0,1500,6,Blind Flange,
+VBF,8,200,99,0,0,160,0,1500,8,Blind Flange,
+VBF,10,250,115,0,0,268,0,1500,10,Blind Flange,
+VBF,12,300,131,0,0,377,0,1500,12,Blind Flange,
+VBF,14,350,140,0,0,519,0,1500,14,Blind Flange,
+VBF,16,400,154,0,0,701,0,1500,16,Blind Flange,
+VBF,18,450,169,0,0,948,0,1500,18,Blind Flange,
+VBF,20,500,185,0,0,1195,0,1500,20,Blind Flange,
+VBF,24,600,210,0,0,1937,0,1500,24,Blind Flange,
+VBF,2,50,58,0,0,22,0,2500,2,Blind Flange,
+VBF,3,80,74,0,0,46,0,2500,3,Blind Flange,
+VBF,4,100,84,0,0,74,0,2500,4,Blind Flange,
+VBF,6,150,115,0,0,186,0,2500,6,Blind Flange,
+VBF,8,200,134,0,0,288,0,2500,8,Blind Flange,
+VBF,10,250,172,0,0,554,0,2500,10,Blind Flange,
+VBF,12,300,192,0,0,714,0,2500,12,Blind Flange,
+VLVX,10,,325,325,,588,,900,10,Triple Offset Flanged Butterfly valve,
+VLVX,12,,375,375,,947,,900,12,Triple Offset Flanged Butterfly valve,
+VLVX,14,,425,425,,1198,,900,14,Triple Offset Flanged Butterfly valve,
+VLVX,16,,475,475,,1733,,900,16,Triple Offset Flanged Butterfly valve,
+VLVX,18,,500,500,,2181,,900,18,Triple Offset Flanged Butterfly valve,
+VLVX,20,,575,575,,2799,,900,20,Triple Offset Flanged Butterfly valve,
+VLV6,42,1050,432,,,1271,,150,42,Flanged wafer Valve,
+VLV6,48,1200,524,,,1996,,150,48,Flanged wafer Valve,
+VLV6,0+1/4,8,,,,,,300,0.25,Flanged wafer Valve,
+VLV6,0+3/8,10,,,,,,300,0.375,Flanged wafer Valve,
+VLV6,0+1/2,15,,,,,,300,0.5,Flanged wafer Valve,
+VLV6,0+3/4,20,,,,,,300,0.75,Flanged wafer Valve,
+VLV6,1,25,,,,,,300,1,Flanged wafer Valve,
+VLV6,1+1/4,32,,,,,,300,1.5,Flanged wafer Valve,
+VLV6,1+1/2,40,51,,,2,,300,1.25,Flanged wafer Valve,
+VLV6,2,50,60,,,3,,300,2,Flanged wafer Valve,
+VLV6,3,80,73,,,7,,300,3,Flanged wafer Valve,
+VLV6,4,100,73,,,9,,300,4,Flanged wafer Valve,
+VLV6,6,150,98,,,25,,300,6,Flanged wafer Valve,
+VLV6,8,200,127,,,37,,300,8,Flanged wafer Valve,
+VLV6,10,250,146,,,65,,300,10,Flanged wafer Valve,
+VLV6,12,300,181,,,99,,300,12,Flanged wafer Valve,
+VLV6,14,350,222,,,181,,300,14,Flanged wafer Valve,
+VLV6,16,400,232,,,210,,300,16,Flanged wafer Valve,
+VLV6,18,450,264,,,295,,300,18,Flanged wafer Valve,
+VLV6,20,500,292,,,368,,300,20,Flanged wafer Valve,
+VLV6,24,600,318,,,525,,300,24,Flanged wafer Valve,
+VLV6,30,750,368,,,953,,300,30,Flanged wafer Valve,
+VLV6,36,900,483,,,1724,,300,36,Flanged wafer Valve,
+VLV6,42,1050,568,,,2632,,300,42,Flanged wafer Valve,
+VLV6,48,1200,629,,,2976,,300,48,Flanged wafer Valve,
+VLV6,0+1/4,8,,,,,,600,0.25,Flanged wafer Valve,
+VLV6,0+3/8,10,,,,,,600,0.375,Flanged wafer Valve,
+VLV6,0+1/2,15,,,,,,600,0.5,Flanged wafer Valve,
+VLV6,0+3/4,20,,,,,,600,0.75,Flanged wafer Valve,
+VLV6,1,25,,,,,,600,1,Flanged wafer Valve,
+VLV6,1+1/4,32,,,,,,600,1.5,Flanged wafer Valve,
+VLV6,1+1/2,40,51,,,2,,600,1.25,Flanged wafer Valve,
+VLV6,2,50,60,,,3,,600,2,Flanged wafer Valve,
+VLV6,3,80,73,,,7,,600,3,Flanged wafer Valve,
+VLV6,4,100,79,,,13,,600,4,Flanged wafer Valve,
+VLV6,6,150,137,,,33,,600,6,Flanged wafer Valve,
+VLV6,8,200,165,,,68,,600,8,Flanged wafer Valve,
+VLV6,10,250,213,,,117,,600,10,Flanged wafer Valve,
+VLV6,12,300,229,,,145,,600,12,Flanged wafer Valve,
+VLV6,14,350,273,,,195,,600,14,Flanged wafer Valve,
+VLV6,16,400,305,,,286,,600,16,Flanged wafer Valve,
+VLV6,18,450,362,,,409,,600,18,Flanged wafer Valve,
+VLV6,20,500,368,,,663,,600,20,Flanged wafer Valve,
+VLV6,24,600,438,,,953,,600,24,Flanged wafer Valve,
+VLV6,30,750,505,,,1498,,600,30,Flanged wafer Valve,
+VLV6,36,900,635,,,2904,,600,36,Flanged wafer Valve,
+VLV6,0+1/4,8,,,,,,900,0.25,Flanged wafer Valve,
+VLV6,0+3/8,10,,,,,,900,0.375,Flanged wafer Valve,
+VLV6,0+1/2,15,,,,,,900,0.5,Flanged wafer Valve,
+VLV6,0+3/4,20,,,,,,900,0.75,Flanged wafer Valve,
+VLV6,1,25,,,,,,900,1,Flanged wafer Valve,
+VLV6,1+1/4,32,,,,,,900,1.5,Flanged wafer Valve,
+VLV6,1+1/2,40,,,,,,900,1.25,Flanged wafer Valve,
+VLV6,2,50,70,,,8,,900,2,Flanged wafer Valve,
+VLV6,3,80,83,,,13,,900,3,Flanged wafer Valve,
+VLV6,4,100,102,,,21,,900,4,Flanged wafer Valve,
+VLV6,6,150,159,,,56,,900,6,Flanged wafer Valve,
+VLV6,8,200,206,,,127,,900,8,Flanged wafer Valve,
+VLV6,10,250,241,,,204,,900,10,Flanged wafer Valve,
+VLV6,12,300,292,,,338,,900,12,Flanged wafer Valve,
+VLV6,14,350,356,,,453,,900,14,Flanged wafer Valve,
+VLV6,16,400,384,,,550,,900,16,Flanged wafer Valve,
+VLV6,18,450,451,,,681,,900,18,Flanged wafer Valve,
+VLV6,20,500,451,,,658,,900,20,Flanged wafer Valve,
+VLV6,24,600,495,,,1271,,900,24,Flanged wafer Valve,
+VLV6,0+1/4,8,,,,,,1500,0.25,Flanged wafer Valve,
+VLV6,0+3/8,10,,,,,,1500,0.375,Flanged wafer Valve,
+VLV6,0+1/2,15,,,,,,1500,0.5,Flanged wafer Valve,
+VLV6,0+3/4,20,,,,,,1500,0.75,Flanged wafer Valve,
+VLV6,1,25,,,,,,1500,1,Flanged wafer Valve,
+VLV6,1+1/4,32,,,,,,1500,1.5,Flanged wafer Valve,
+VLV6,1+1/2,40,,,,,,1500,1.25,Flanged wafer Valve,
+VLV6,2,50,70,,,8,,1500,2,Flanged wafer Valve,
+VLV6,3,80,83,,,14,,1500,3,Flanged wafer Valve,
+VLV6,4,100,102,,,28,,1500,4,Flanged wafer Valve,
+VLV6,6,150,159,,,56,,1500,6,Flanged wafer Valve,
+VLV6,8,200,206,,,121,,1500,8,Flanged wafer Valve,
+VLV6,10,250,248,,,211,,1500,10,Flanged wafer Valve,
+VLV6,12,300,305,,,386,,1500,12,Flanged wafer Valve,
+VLV6,14,350,356,,,501,,1500,14,Flanged wafer Valve,
+VLV6,16,400,384,,,607,,1500,16,Flanged wafer Valve,
+VLV6,18,450,468,,,817,,1500,18,Flanged wafer Valve,
+VLV6,20,500,533,,,1316,,1500,20,Flanged wafer Valve,
+VLV6,24,600,559,,,2010,,1500,24,Flanged wafer Valve,
+VLV6,0+1/4,,,,,,,2500,0.25,Flanged wafer Valve,
+VLV6,0+3/8,,,,,,,2500,0.375,Flanged wafer Valve,
+VLV6,0+1/2,15,,,,,,2500,0.5,Flanged wafer Valve,
+VLV6,0+3/4,20,,,,,,2500,0.75,Flanged wafer Valve,
+VLV6,1,25,,,,,,2500,1,Flanged wafer Valve,
+VLV6,1+1/4,32,,,,,,2500,1.5,Flanged wafer Valve,
+VLV6,1+1/2,40,,,,,,2500,1.25,Flanged wafer Valve,
+VLV6,2,50,70,,,14,,2500,2,Flanged wafer Valve,
+VLV6,3,80,86,,,21,,2500,3,Flanged wafer Valve,
+VLV6,4,100,105,,,44,,2500,4,Flanged wafer Valve,
+VLV6,6,150,159,,,87,,2500,6,Flanged wafer Valve,
+VLV6,8,200,206,,,138,,2500,8,Flanged wafer Valve,
+Vlv8,3,80,48,,,14,,300,3,Lug type Valve,
+Vlv8,4,100,54,,,21,,300,4,Lug type Valve,
+Vlv8,6,150,59,,,33,,300,6,Lug type Valve,
+Vlv8,8,200,73,,,58,,300,8,Lug type Valve,
+Vlv8,10,250,83,,,110,,300,10,Lug type Valve,
+Vlv8,12,300,92,,,179,,300,12,Lug type Valve,
+Vlv8,14,350,117,,,269,,300,14,Lug type Valve,
+Vlv8,16,400,133,,,376,,300,16,Lug type Valve,
+Vlv8,18,450,149,,,465,,300,18,Lug type Valve,
+Vlv8,20,500,159,,,488,,300,20,Lug type Valve,
+Vlv8,24,600,181,,,934,,300,24,Lug type Valve,
+Vlv8,3,80,54,,,21,,600,3,Lug type Valve,
+Vlv8,4,100,64,,,32,,600,4,Lug type Valve,
+Vlv8,6,150,78,,,68,,600,6,Lug type Valve,
+Vlv8,8,200,102,,,137,,600,8,Lug type Valve,
+Vlv8,10,250,117,,,248,,600,10,Lug type Valve,
+Vlv8,12,300,140,,,357,,600,12,Lug type Valve,
+Vlv8,14,350,155,,,521,,600,14,Lug type Valve,
+Vlv8,16,400,178,,,654,,600,16,Lug type Valve,
+Vlv8,18,450,200,,,798,,600,18,Lug type Valve,
+Vlv8,20,500,216,,,944,,600,20,Lug type Valve,
+Vlv8,24,600,232,,,1125,,600,24,Lug type Valve,
+VLV5,5,125,400,416,400,87,72,300,5,Flanged Swing check Valve,
+VLV5,6,150,444,460,444,136,112,300,6,Flanged Swing check Valve,
+VLV5,8,200,533,549,533,221,181,300,8,Flanged Swing check Valve,
+VLV5,10,250,622,638,622,400,327,300,10,Flanged Swing check Valve,
+VLV5,12,300,711,727,711,471,382,300,12,Flanged Swing check Valve,
+VLV5,14,350,838,854,838,708,578,300,14,Flanged Swing check Valve,
+VLV5,16,400,864,880,864,876,714,300,16,Flanged Swing check Valve,
+VLV5,18,450,978,994,978,1069,872,300,18,Flanged Swing check Valve,
+VLV5,20,500,1016,1035,1016,1366,1122,300,20,Flanged Swing check Valve,
+VLV5,22,550,1118,1140,1118,1600,1350,300,22,Flanged Swing check Valve,
+VLV5,24,600,1346,1368,1346,2036,1666,300,24,Flanged Swing check Valve,
+VLV5,26,650,1346,1371,1346,2462,1998,300,26,Flanged Swing check Valve,
+VLV5,28,700,1499,1524,1499,2925,2380,300,28,Flanged Swing check Valve,
+VLV5,30,750,1594,1619,1594,3423,2780,300,30,Flanged Swing check Valve,
+VLV5,18,450,978,991,978,804,667,150,18,Flanged Swing check Valve,
+VLV5,20,500,978,991,978,861,710,150,20,Flanged Swing check Valve,
+VLV5,22,550,1067,1080,1067,1580,1343,150,22,Flanged Swing check Valve,
+VLV5,24,600,1295,1308,1295,1614,1343,150,24,Flanged Swing check Valve,
+VLV5,26,650,1295,1295,1295,1847,1530,150,26,Flanged Swing check Valve,
+VLV5,28,700,1448,1448,1448,1956,1615,150,28,Flanged Swing check Valve,
+VLV5,30,750,1524,1524,1524,2178,1802,150,30,Flanged Swing check Valve,
+VLV5,32,800,,,,2596,2125,150,32,Flanged Swing check Valve,
+VLV5,34,850,,,,3011,2465,150,34,Flanged Swing check Valve,
+VLV5,36,900,1956,1956,1956,3459,2843,150,36,Flanged Swing check Valve,
+VLV5,0+1/2,15,,,,6,5,300,0.5,Flanged Swing check Valve,
+VLV5,0+3/4,20,,,,8,6,300,0.75,Flanged Swing check Valve,
+VLV5,1,25,216,229,216,11,9,300,1,Flanged Swing check Valve,
+VLV5,1+1/4,32,229,242,229,15,12,300,1.5,Flanged Swing check Valve,
+VLV5,1+1/2,40,241,254,241,18,15,300,1.25,Flanged Swing check Valve,
+VLV5,2,50,267,283,267,23,18,300,2,Flanged Swing check Valve,
+VLV5,2+1/2,65,292,308,292,35,28,300,2.5,Flanged Swing check Valve,
+VLV5,3,80,318,334,318,46,37,300,3,Flanged Swing check Valve,
+VLV5,4,100,356,372,356,64,52,300,4,Flanged Swing check Valve,
+VLV5,28,700,1600,1600,,4059,3230,600,28,Flanged Swing check Valve,
+VLV5,30,750,1651,1651,,4470,3570,600,30,Flanged Swing check Valve,
+VLV5,32,800,,,,4819,3825,600,32,Flanged Swing check Valve,
+VLV5,34,850,,,,5377,4293,600,34,Flanged Swing check Valve,
+VLV5,36,900,2083,2083,,5948,4675,600,36,Flanged Swing check Valve,
+VLV5,0+3/4,20,229,229,229,22,17,900,0.75,Flanged Swing check Valve,
+VLV5,1,25,254,254,254,41,33,900,1,Flanged Swing check Valve,
+VLV5,1+1/4,32,279,279,279,52,42,900,1.5,Flanged Swing check Valve,
+VLV5,1+1/2,40,305,305,305,65,52,900,1.25,Flanged Swing check Valve,
+VLV5,2,50,368,371,368,75,59,900,2,Flanged Swing check Valve,
+VLV5,2+1/2,65,419,422,419,101,79,900,2.5,Flanged Swing check Valve,
+VLV5,3,80,381,384,381,91,73,900,3,Flanged Swing check Valve,
+VLV5,4,100,457,460,457,156,124,900,4,Flanged Swing check Valve,
+VLV5,5,125,559,562,559,234,195,900,5,Flanged Swing check Valve,
+VLV5,6,150,610,613,610,327,264,900,6,Flanged Swing check Valve,
+VLV5,8,200,737,740,737,530,425,900,8,Flanged Swing check Valve,
+VLV5,10,250,838,841,838,814,657,900,10,Flanged Swing check Valve,
+VLV5,12,300,965,968,965,1135,918,900,12,Flanged Swing check Valve,
+VLV5,14,350,1029,1039,1029,1558,1275,900,14,Flanged Swing check Valve,
+VLV5,16,400,1130,1140,1130,2203,1811,900,16,Flanged Swing check Valve,
+VLV5,18,450,1219,1232,1219,2733,2210,900,18,Flanged Swing check Valve,
+VLV5,20,500,1321,1334,1321,3567,2890,900,20,Flanged Swing check Valve,
+VLV5,22,550,,,,4495,,900,22,Flanged Swing check Valve,
+VLV5,24,600,1549,1568,1549,4495,4000,900,24,Flanged Swing check Valve,
+VLV5,0+1/2,15,216,216,216,23,18,1500,0.5,Flanged Swing check Valve,
+VLV5,0+3/4,20,229,229,229,32,26,1500,0.75,Flanged Swing check Valve,
+VLV5,1,25,254,254,254,41,33,1500,1,Flanged Swing check Valve,
+VLV5,1+1/4,32,279,279,279,52,42,1500,1.5,Flanged Swing check Valve,
+VLV5,1+1/2,40,305,305,305,65,52,1500,1.25,Flanged Swing check Valve,
+VLV5,2,50,368,371,368,75,59,1500,2,Flanged Swing check Valve,
+VLV5,2+1/2,65,419,422,419,101,79,1500,2.5,Flanged Swing check Valve,
+VLV5,3,80,470,473,470,151,119,1500,3,Flanged Swing check Valve,
+VLV5,4,100,546,549,546,247,198,1500,4,Flanged Swing check Valve,
+VLV5,5,125,673,676,673,,0,1500,5,Flanged Swing check Valve,
+VLV5,6,150,705,711,705,524,417,1500,6,Flanged Swing check Valve,
+VLV5,8,200,832,842,832,1043,842,1500,8,Flanged Swing check Valve,
+VLV5,10,250,991,1001,991,1571,1267,1500,10,Flanged Swing check Valve,
+VLV5,12,300,1130,1146,1130,2109,1675,1500,12,Flanged Swing check Valve,
+VLV5,14,350,1257,1276,1257,2620,2083,1500,14,Flanged Swing check Valve,
+VLV5,16,400,1384,1406,1384,3448,2725,1500,16,Flanged Swing check Valve,
+VLV5,18,450,1537,1559,1537,4238,3315,1500,18,Flanged Swing check Valve,
+VLV5,20,500,1664,1686,1664,5009,3910,1500,20,Flanged Swing check Valve,
+VLV5,22,550,,,,5947,,1500,22,Flanged Swing check Valve,
+VLV5,24,600,1943,1971,1943,5947,4505,1500,24,Flanged Swing check Valve,
+VLV5,0+1/2,15,264,264,264,32,26,2500,0.5,Flanged Swing check Valve,
+VLV5,0+3/4,20,273,273,273,42,34,2500,0.75,Flanged Swing check Valve,
+VLV5,1,25,308,308,308,63,51,2500,1,Flanged Swing check Valve,
+VLV5,1+1/4,32,349,352,349,79,64,2500,1.5,Flanged Swing check Valve,
+VLV5,1+1/2,40,384,387,384,95,77,2500,1.25,Flanged Swing check Valve,
+VLV5,2,50,451,454,451,126,100,2500,2,Flanged Swing check Valve,
+VLV5,2+1/2,65,508,514,508,229,185,2500,2.5,Flanged Swing check Valve,
+VLV5,3,80,578,584,578,311,251,2500,3,Flanged Swing check Valve,
+VLV5,4,100,673,683,673,587,476,2500,4,Flanged Swing check Valve,
+VLV5,5,125,794,807,794,696,550,2500,5,Flanged Swing check Valve,
+VLV5,6,150,914,927,914,836,655,2500,6,Flanged Swing check Valve,
+VLV5,8,200,1022,1038,1022,1345,1054,2500,8,Flanged Swing check Valve,
+VLV5,10,250,1270,1292,1270,2417,1889,2500,10,Flanged Swing check Valve,
+VLV5,12,300,1422,1444,1422,3580,2814,2500,12,Flanged Swing check Valve,
+VLV6,0+1/4,8,,,,,,150,0.25,Flanged wafer Valve,
+VLV6,0+3/8,10,,,,,,150,0.375,Flanged wafer Valve,
+VLV6,0+1/2,15,,,,,,150,0.5,Flanged wafer Valve,
+VLV6,0+3/4,20,,,,,,150,0.75,Flanged wafer Valve,
+VLV6,1,25,,,,,,150,1,Flanged wafer Valve,
+VLV6,1+1/4,32,,,,,,150,1.5,Flanged wafer Valve,
+VLV6,1+1/2,40,51,,,2,,150,1.25,Flanged wafer Valve,
+Flg,16,400,185,0,0,211,0,600,16,Weldneck Flange,1
+Flg,18,450,191,0,0,259,0,600,18,Weldneck Flange,1
+Flg,20,500,197,0,0,321,0,600,20,Weldneck Flange,1
+Flg,24,600,210,0,0,458,0,600,24,Weldneck Flange,1
+Flg,8,200,220,0,0,152,0,1500,8,Weldneck Flange,1
+Flg,10,250,261,0,0,248,0,1500,10,Weldneck Flange,1
+Flg,12,300,290,0,0,384,0,1500,12,Weldneck Flange,1
+Flg,14,350,305,0,0,512,0,1500,14,Weldneck Flange,1
+Flg,16,400,318,0,0,690,0,1500,16,Weldneck Flange,1
+Flg,18,450,334,0,0,907,0,1500,18,Weldneck Flange,1
+Flg,20,500,363,0,0,1137,0,1500,20,Weldneck Flange,1
+Flg,24,600,413,0,0,1835,0,1500,24,Weldneck Flange,1
+Flg,0+1/2,15,80,0,0,4,0,2500,0.5,Weldneck Flange,1
+Flg,1,25,80,0,0,6,0,1500,1,Weldneck Flange,1
+Flg,1+1/4,32,80,0,0,7,0,1500,1.5,Weldneck Flange,1
+Flg,1+1/2,40,90,0,0,8,0,1500,1.25,Weldneck Flange,1
+Flg,2,50,109,0,0,14,0,1500,2,Weldneck Flange,1
+Flg,2+1/2,65,112,0,0,20,0,1500,2.5,Weldneck Flange,1
+Flg,3,80,124,0,0,28,0,1500,3,Weldneck Flange,1
+Flg,4,100,131,0,0,41,0,1500,4,Weldneck Flange,1
+Flg,5,125,163,0,0,73,0,1500,5,Weldneck Flange,1
+Flg,6,150,178,0,0,92,0,1500,6,Weldneck Flange,1
+Flg,8,200,220,0,0,152,0,1500,8,Weldneck Flange,1
+Flg,10,250,261,0,0,248,0,1500,10,Weldneck Flange,1
+Flg,12,300,290,0,0,384,0,1500,12,Weldneck Flange,1
+Flg,14,350,305,0,0,512,0,1500,14,Weldneck Flange,1
+Flg,16,400,318,0,0,690,0,1500,16,Weldneck Flange,1
+Flg,18,450,334,0,0,907,0,1500,18,Weldneck Flange,1
+Flg,20,500,363,0,0,1137,0,1500,20,Weldneck Flange,1
+Flg,24,600,413,0,0,1835,0,1500,24,Weldneck Flange,1
+Flg,0+3/4,20,86,0,0,5,0,2500,0.75,Weldneck Flange,1
+Flg,1,25,96,0,0,8,0,2500,1,Weldneck Flange,1
+Flg,1+1/4,32,102,0,0,10,0,2500,1.5,Weldneck Flange,1
+Flg,1+1/2,40,118,0,0,15,0,2500,1.25,Weldneck Flange,1
+Flg,2,50,134,0,0,24,0,2500,2,Weldneck Flange,1
+Flg,2+1/2,65,150,0,0,30,0,2500,2.5,Weldneck Flange,1
+Flg,3,80,175,0,0,51,0,2500,3,Weldneck Flange,1
+Flg,4,100,197,0,0,80,0,2500,4,Weldneck Flange,1
+Flg,5,125,236,0,0,129,0,2500,5,Weldneck Flange,1
+Flg,6,150,280,0,0,206,0,2500,6,Weldneck Flange,1
+Flg,8,200,325,0,0,317,0,2500,8,Weldneck Flange,1
+Flg,10,250,426,0,0,588,0,2500,10,Weldneck Flange,1
+Flg,12,300,471,0,0,830,0,2500,12,Weldneck Flange,1
+Flg,0+1/2,15,67,0,0,3,0,1500,0.5,Weldneck Flange,1
+Flg,0+3/4,20,77,0,0,4,0,1500,0.75,Weldneck Flange,1
+Flg,1,25,80,0,0,6,0,1500,1,Weldneck Flange,1
+Flg,1+1/4,32,80,0,0,7,0,1500,1.5,Weldneck Flange,1
+Flg,1+1/2,40,90,0,0,8,0,1500,1.25,Weldneck Flange,1
+Flg,2,50,109,0,0,14,0,1500,2,Weldneck Flange,1
+Flg,2+1/2,65,112,0,0,20,0,1500,2.5,Weldneck Flange,1
+Flg,3,80,124,0,0,28,0,1500,3,Weldneck Flange,1
+Flg,4,100,131,0,0,41,0,1500,4,Weldneck Flange,1
+Flg,5,125,163,0,0,73,0,1500,5,Weldneck Flange,1
+Flg,6,150,178,0,0,92,0,1500,6,Weldneck Flange,1
+FLA,26,650,119,0,0,167,0,150,26,Weldneck Flange Series A,1
+FLA,28,700,124,0,0,213,0,150,28,Weldneck Flange Series A,1
+FLA,30,750,135,0,0,228,0,150,30,Weldneck Flange Series A,1
+FLA,32,800,143,0,0,303,0,150,32,Weldneck Flange Series A,1
+FLA,34,850,148,0,0,331,0,150,34,Weldneck Flange Series A,1
+FLA,36,900,156,0,0,425,0,150,36,Weldneck Flange Series A,1
+FLA,38,950,156,0,0,438,0,150,38,Weldneck Flange Series A,1
+FLA,40,1000,162,0,0,458,0,150,40,Weldneck Flange Series A,1
+FLA,42,1050,170,0,0,522,0,150,42,Weldneck Flange Series A,1
+FLA,44,1100,176,0,0,578,0,150,44,Weldneck Flange Series A,1
+FLA,46,1150,184,0,0,605,0,150,46,Weldneck Flange Series A,1
+FLA,48,1200,191,0,0,695,0,150,48,Weldneck Flange Series A,1
+FLA,50,1250,202,0,0,702,0,150,50,Weldneck Flange Series A,1
+FLA,52,1300,208,0,0,871,0,150,52,Weldneck Flange Series A,1
+FLA,54,1350,214,0,0,852,0,150,54,Weldneck Flange Series A,1
+FLA,56,1400,227,0,0,1045,0,150,56,Weldneck Flange Series A,1
+FLA,58,1450,233,0,0,1018,0,150,58,Weldneck Flange Series A,1
+FLA,60,1500,238,0,0,1211,0,150,60,Weldneck Flange Series A,1
+FLA,26,650,183,0,0,344,0,300,26,Weldneck Flange Series A,1
+FLA,28,700,195,0,0,403,0,300,28,Weldneck Flange Series A,1
+FLA,30,750,208,0,0,483,0,300,30,Weldneck Flange Series A,1
+FLA,32,800,221,0,0,560,0,300,32,Weldneck Flange Series A,1
+FLA,34,850,230,0,0,618,0,300,34,Weldneck Flange Series A,1
+FLA,36,900,240,0,0,741,0,300,36,Weldneck Flange Series A,1
+FLA,38,950,179,0,0,395,0,300,38,Weldneck Flange Series A,1
+FLA,40,1000,192,0,0,478,0,300,40,Weldneck Flange Series A,1
+FLA,42,1050,198,0,0,524,0,300,42,Weldneck Flange Series A,1
+FLA,44,1100,205,0,0,605,0,300,44,Weldneck Flange Series A,1
+FLA,46,1150,214,0,0,684,0,300,46,Weldneck Flange Series A,1
+FLA,48,1200,222,0,0,740,0,300,48,Weldneck Flange Series A,1
+FLA,50,1250,230,0,0,842,0,300,50,Weldneck Flange Series A,1
+FLA,52,1300,237,0,0,924,0,300,52,Weldneck Flange Series A,1
+FLA,54,1350,251,0,0,1090,0,300,54,Weldneck Flange Series A,1
+FLA,56,1400,259,0,0,1146,0,300,56,Weldneck Flange Series A,1
+FLA,58,1450,265,0,0,1215,0,300,58,Weldneck Flange Series A,1
+FLA,60,1500,271,0,0,1308,0,300,60,Weldneck Flange Series A,1
+FLA,26,650,194,0,0,565,0,400,26,Weldneck Flange Series A,1
+FLA,28,700,206,0,0,715,0,400,28,Weldneck Flange Series A,1
+FLA,30,750,219,0,0,830,0,400,30,Weldneck Flange Series A,1
+FLA,32,800,232,0,0,955,0,400,32,Weldneck Flange Series A,1
+FLA,34,850,241,0,0,1120,0,400,34,Weldneck Flange Series A,1
+FLA,36,900,251,0,0,1290,0,400,36,Weldneck Flange Series A,1
+FLA,38,950,206,0,0,1165,0,400,38,Weldneck Flange Series A,1
+FLA,40,1000,216,0,0,1350,0,400,40,Weldneck Flange Series A,1
+FLA,42,1050,224,0,0,1503,0,400,42,Weldneck Flange Series A,1
+FLA,44,1100,233,0,0,1723,0,400,44,Weldneck Flange Series A,1
+FLA,46,1150,244,0,0,1942,0,400,46,Weldneck Flange Series A,1
+FLA,48,1200,257,0,0,2234,0,400,48,Weldneck Flange Series A,1
+FLA,50,1250,268,0,0,2499,0,400,50,Weldneck Flange Series A,1
+FLA,52,1300,276,0,0,2733,0,400,52,Weldneck Flange Series A,1
+FLA,54,1350,289,0,0,3152,0,400,54,Weldneck Flange Series A,1
+FLA,56,1400,298,0,0,3460,0,400,56,Weldneck Flange Series A,1
+FLA,58,1450,306,0,0,3740,0,400,58,Weldneck Flange Series A,1
+FLA,60,1500,319,0,0,4274,0,400,60,Weldneck Flange Series A,1
+FLA,26,650,222,0,0,581,0,600,26,Weldneck Flange Series A,1
+FLA,28,700,235,0,0,668,0,600,28,Weldneck Flange Series A,1
+FLA,30,750,248,0,0,741,0,600,30,Weldneck Flange Series A,1
+FLA,32,800,260,0,0,849,0,600,32,Weldneck Flange Series A,1
+FLA,34,850,270,0,0,920,0,600,34,Weldneck Flange Series A,1
+FLA,36,900,283,0,0,999,0,600,36,Weldneck Flange Series A,1
+FLA,38,950,254,0,0,1032,0,600,38,Weldneck Flange Series A,1
+FLA,40,1000,264,0,0,1003,0,600,40,Weldneck Flange Series A,1
+FLA,42,1050,279,0,0,1231,0,600,42,Weldneck Flange Series A,1
+FLA,44,1100,289,0,0,1341,0,600,44,Weldneck Flange Series A,1
+FLA,46,1150,300,0,0,1459,0,600,46,Weldneck Flange Series A,1
+FLA,48,1200,316,0,0,1798,0,600,48,Weldneck Flange Series A,1
+FLA,50,1250,329,0,0,1900,0,600,50,Weldneck Flange Series A,1
+FLA,52,1300,337,0,0,2197,0,600,52,Weldneck Flange Series A,1
+FLA,54,1400,349,0,0,2242,0,600,54,Weldneck Flange Series A,1
+FLA,56,1450,362,0,0,2829,0,600,56,Weldneck Flange Series A,1
+FLA,58,1500,370,0,0,2632,0,600,58,Weldneck Flange Series A,1
+FLA,60,1550,389,0,0,3386,0,600,60,Weldneck Flange Series A,1
+FLA,26,650,286,0,0,1014,0,900,26,Weldneck Flange Series A,1
+FLA,28,700,298,0,0,1216,0,900,28,Weldneck Flange Series A,1
+FLA,30,750,311,0,0,1365,0,900,30,Weldneck Flange Series A,1
+FLA,32,800,330,0,0,1628,0,900,32,Weldneck Flange Series A,1
+FLA,34,850,349,0,0,1993,0,900,34,Weldneck Flange Series A,1
+FLA,36,900,362,0,0,2196,0,900,36,Weldneck Flange Series A,1
+FLA,38,950,352,0,0,2115,0,900,38,Weldneck Flange Series A,1
+FLA,40,1000,364,0,0,2351,0,900,40,Weldneck Flange Series A,1
+FLA,42,1050,371,0,0,2511,0,900,42,Weldneck Flange Series A,1
+FLA,44,1100,391,0,0,2939,0,900,44,Weldneck Flange Series A,1
+FLA,46,1150,411,0,0,3464,0,900,46,Weldneck Flange Series A,1
+FLA,48,1200,419,0,0,3661,0,900,48,Weldneck Flange Series A,1
+WNB,26,650,87,0,0,63,0,150,26,Weldneck Flange Series B,1
+WNB,28,700,94,0,0,74,0,150,28,Weldneck Flange Series B,1
+WNB,30,750,98,0,0,80,0,150,30,Weldneck Flange Series B,1
+WNB,32,800,106,0,0,92,0,150,32,Weldneck Flange Series B,1
+WNB,34,850,109,0,0,113,0,150,34,Weldneck Flange Series B,1
+WNB,36,900,116,0,0,129,0,150,36,Weldneck Flange Series B,1
+WNB,38,950,122,0,0,149,0,150,38,Weldneck Flange Series B,1
+WNB,40,1000,127,0,0,176,0,150,40,Weldneck Flange Series B,1
+WNB,42,1050,132,0,0,184,0,150,42,Weldneck Flange Series B,1
+WNB,44,1100,135,0,0,200,0,150,44,Weldneck Flange Series B,1
+WNB,46,1150,143,0,0,216,0,150,46,Weldneck Flange Series B,1
+WNB,48,1200,148,0,0,231,0,150,48,Weldneck Flange Series B,1
+WNB,50,1250,152,0,0,250,0,150,50,Weldneck Flange Series B,1
+WNB,52,1300,156,0,0,269,0,150,52,Weldneck Flange Series B,1
+WNB,54,1350,160,0,0,287,0,150,54,Weldneck Flange Series B,1
+WNB,56,1400,165,0,0,321,0,150,56,Weldneck Flange Series B,1
+WNB,58,1450,173,0,0,355,0,150,58,Weldneck Flange Series B,1
+WNB,60,1500,178,0,0,388,0,150,60,Weldneck Flange Series B,1
+Flg,0+1/2,15,48,0,0,1,0,150,0.5,Weldneck Flange,1
+Flg,0+3/4,20,53,0,0,1,0,150,0.75,Weldneck Flange,1
+VLV3-1,22,550,,,1092,2831,,150,22,Flanged Ball Valve -Full Bore,2
+VLV3-1,22,550,,,,3346,,300,22,Flanged Ball Valve -Full Bore,2
+VLV3-1,24,600,1067,1080,1143,3750,,150,24,Flanged Ball Valve -Full Bore,2
+VLV3-1,24,600,1549,1568,1549,10245,,900,24,Flanged Ball Valve -Full Bore,2
+VLV3-1,24,600,1143,1165,1143,4600,,300,24,Flanged Ball Valve -Full Bore,2
+VLV3-1,24,600,1397,1407,1397,6385,,600,24,Flanged Ball Valve -Full Bore,2
+VLV3-1,26,650,1448,1461,1448,6984,,600,26,Flanged Ball Valve -Full Bore,2
+VLV3-1,26,650,1245,1270,1245,5716,,300,26,Flanged Ball Valve -Full Bore,2
+VLV3-1,26,650,,,1245,4711,,150,26,Flanged Ball Valve -Full Bore,2
+VLV3-1,28,700,1346,1371,1346,7565,,300,28,Flanged Ball Valve -Full Bore,2
+VLV3-1,28,700,,,1346,5444,,150,28,Flanged Ball Valve -Full Bore,2
+VLV3-1,28,700,1549,1562,1549,8371,,600,28,Flanged Ball Valve -Full Bore,2
+VLV3-1,30,750,1397,1422,1397,8073,,300,30,Flanged Ball Valve -Full Bore,2
+VLV3-1,30,750,,,1397,6334,,150,30,Flanged Ball Valve -Full Bore,2
+VLV3-1,30,750,1651,1664,1651,11965,,600,30,Flanged Ball Valve -Full Bore,2
+VLV3-1,32,800,1524,1552,1524,9702,,300,32,Flanged Ball Valve -Full Bore,2
+VLV3-1,32,800,1778,1794,1778,12005,,600,32,Flanged Ball Valve -Full Bore,2
+VLV3-1,32,800,,,1524,8280,,150,32,Flanged Ball Valve -Full Bore,2
+VLV3-1,34,850,1626,1654,1626,11036,,300,34,Flanged Ball Valve -Full Bore,2
+VLV3-1,34,850,,,,13930,,600,34,Flanged Ball Valve -Full Bore,2
+VLV3-1,34,850,,,1626,9976,,150,34,Flanged Ball Valve -Full Bore,2
+VLV3-1,36,900,2083,2099,2083,17273,,600,36,Flanged Ball Valve -Full Bore,2
+VLV3-1,36,900,,,1727,12283,,150,36,Flanged Ball Valve -Full Bore,2
+VLV3-1,36,900,1727,1755,1727,13625,,300,36,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+1/4,8,,,,10,,150,0.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/8,10,,,,10,,150,0.375,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+1/2,15,,,,43,,2500,0.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+1/2,15,165,163,165,10,,600,0.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+1/2,15,140,151,,10,,300,0.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+1/2,15,,,,30,,1500,0.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+1/2,15,108,,,10,,150,0.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/4,20,,,,29,,900,0.75,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/4,20,152,165,,10,,300,0.75,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/4,20,,,,56,,2500,0.75,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/4,20,117,,,10,,150,0.75,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/4,20,190,190,190,15,,600,0.75,Flanged Ball Valve -Full Bore,2
+VLV3-1,0+3/4,20,,,,43,,1500,0.75,Flanged Ball Valve -Full Bore,2
+VLV3-1,1,25,127,140,,10,,150,1,Flanged Ball Valve -Full Bore,2
+VLV3-1,1,25,,,,55,,1500,1,Flanged Ball Valve -Full Bore,2
+VLV3-1,1,25,254,254,254,55,,900,1,Flanged Ball Valve -Full Bore,2
+VLV3-1,1,25,165,178,,15,,300,1,Flanged Ball Valve -Full Bore,2
+VLV3-1,1,25,,,,84,,2500,1,Flanged Ball Valve -Full Bore,2
+VLV3-1,1,25,216,216,216,21,,600,1,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/4,32,,,,69,,1500,1.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/4,32,,,,92,,2500,1.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/4,32,279,279,279,63,,900,1.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/4,32,229,229,229,36,,600,1.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/4,32,140,153,,21,,150,1.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/4,32,178,191,,17,,300,1.5,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/2,40,,,,74,,1500,1.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/2,40,305,305,305,66,,900,1.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/2,40,165,178,190,21,,150,1.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/2,40,241,241,241,39,,600,1.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/2,40,190,203,190,20,,300,1.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,1+1/2,40,,,,100,,2500,1.25,Flanged Ball Valve -Full Bore,2
+VLV3-1,2,50,292,295,292,35,,600,2,Flanged Ball Valve -Full Bore,2
+VLV3-1,2,50,368,371,368,56,,1500,2,Flanged Ball Valve -Full Bore,2
+VLV3-1,2,50,368,371,368,56,,900,2,Flanged Ball Valve -Full Bore,2
+VLV3-1,10,250,533,546,559,469,,150,10,Flanged Ball Valve -Full Bore,2
+VLV3-1,10,250,568,584,559,624,,300,10,Flanged Ball Valve -Full Bore,2
+VLV3-1,10,250,787,790,787,901,,600,10,Flanged Ball Valve -Full Bore,2
+VLV3-1,10,250,991,1001,991,1889,,1500,10,Flanged Ball Valve -Full Bore,2
+VLV3-1,10,250,1270,1292,1270,2759,,2500,10,Flanged Ball Valve -Full Bore,2
+VLV3-1,10,250,838,841,838,1274,,900,10,Flanged Ball Valve -Full Bore,2
+VLV3-1,12,300,1422,1444,1422,4122,,2500,12,Flanged Ball Valve -Full Bore,2
+VLV3-1,12,300,965,968,965,1663,,900,12,Flanged Ball Valve -Full Bore,2
+VLV3-1,12,300,838,841,838,1198,,600,12,Flanged Ball Valve -Full Bore,2
+VLV3-1,12,300,610,623,635,805,,150,12,Flanged Ball Valve -Full Bore,2
+VLV3-1,12,300,648,664,635,866,,300,12,Flanged Ball Valve -Full Bore,2
+VLV3-1,12,300,1130,1146,1130,2865,,1500,12,Flanged Ball Valve -Full Bore,2
+VLV3-1,14,350,1257,1276,1257,3590,,1500,14,Flanged Ball Valve -Full Bore,2
+VLV3-1,14,350,762,778,762,1288,,300,14,Flanged Ball Valve -Full Bore,2
+VLV3-1,14,350,686,699,762,1049,,150,14,Flanged Ball Valve -Full Bore,2
+VLV3-1,14,350,889,892,889,1630,,600,14,Flanged Ball Valve -Full Bore,2
+VLV3-1,14,350,1029,1039,1029,2338,,900,14,Flanged Ball Valve -Full Bore,2
+VLV3-1,16,400,1384,1406,1384,5187,,1500,16,Flanged Ball Valve -Full Bore,2
+VLV3-1,16,400,838,854,838,1750,,300,16,Flanged Ball Valve -Full Bore,2
+VLV3-1,16,400,991,994,991,2162,,600,16,Flanged Ball Valve -Full Bore,2
+VLV3-1,16,400,1130,1140,1130,2953,,900,16,Flanged Ball Valve -Full Bore,2
+VLV3-1,16,400,762,775,838,1539,,150,16,Flanged Ball Valve -Full Bore,2
+VLV3-1,18,450,914,930,914,1966,,300,18,Flanged Ball Valve -Full Bore,2
+VLV3-1,18,450,864,877,914,2026,,150,18,Flanged Ball Valve -Full Bore,2
+VLV3-1,18,450,1092,1095,1092,2602,,600,18,Flanged Ball Valve -Full Bore,2
+VLV3-1,18,450,1219,1232,1219,3589,,900,18,Flanged Ball Valve -Full Bore,2
+VLV3-1,20,500,991,1010,991,2694,,300,20,Flanged Ball Valve -Full Bore,2
+VLV3-1,20,500,1321,1334,1321,5471,,900,20,Flanged Ball Valve -Full Bore,2
+VLV3-1,20,500,1194,1200,1194,3996,,600,20,Flanged Ball Valve -Full Bore,2
+VLV3-1,20,500,914,927,991,2184,,150,20,Flanged Ball Valve -Full Bore,2
+VLV3-1,22,550,,,,7656,,900,22,Flanged Ball Valve -Full Bore,2
+VLV3-1,22,550,,,,5004,,600,22,Flanged Ball Valve -Full Bore,2
+VLV3,0+3/4,20,152,165,,8,7,300,0.75,Flanged Ball Valve-Reduced Bore,2
+VLV3,1,25,165,178,,11,10,300,1,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/4,32,178,191,,13,12,300,1.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/2,40,190,203,190,15,14,300,1.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,2,50,216,232,216,27,18,300,2,Flanged Ball Valve-Reduced Bore,2
+VLV3,2+1/2,65,241,257,241,30,23,300,2.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,3,80,282,298,282,35,23,300,3,Flanged Ball Valve-Reduced Bore,2
+VLV3,4,100,305,321,305,77,40,300,4,Flanged Ball Valve-Reduced Bore,2
+VLV3,5,125,,,,,,300,5,Flanged Ball Valve-Reduced Bore,2
+VLV3,6,150,403,419,457,143,68,300,6,Flanged Ball Valve-Reduced Bore,2
+VLV3,8,200,502,518,521,271,132,300,8,Flanged Ball Valve-Reduced Bore,2
+VLV3,10,250,568,584,559,366,239,300,10,Flanged Ball Valve-Reduced Bore,2
+VLV3,12,300,648,664,635,735,382,300,12,Flanged Ball Valve-Reduced Bore,2
+VLV3,14,350,762,778,762,1007,527,300,14,Flanged Ball Valve-Reduced Bore,2
+VLV3,16,400,838,854,838,1386,605,300,16,Flanged Ball Valve-Reduced Bore,2
+VLV3,18,450,914,930,914,1956,773,300,18,Flanged Ball Valve-Reduced Bore,2
+VLV3,20,500,991,1010,991,2196,1045,300,20,Flanged Ball Valve-Reduced Bore,2
+VLV3,22,550,,,,1963,1386,300,22,Flanged Ball Valve-Reduced Bore,2
+VLV3,24,600,1143,1165,1143,3269,1659,300,24,Flanged Ball Valve-Reduced Bore,2
+VLV3,26,650,1245,1270,1245,3249,2318,300,26,Flanged Ball Valve-Reduced Bore,2
+VLV3,28,700,1346,1371,1346,4085,2773,300,28,Flanged Ball Valve-Reduced Bore,2
+VLV3,30,750,1397,1422,1397,5534,3455,300,30,Flanged Ball Valve-Reduced Bore,2
+VLV3,32,800,1524,1552,1524,5721,4000,300,32,Flanged Ball Valve-Reduced Bore,2
+VLV3,34,850,1626,1654,1626,7028,,300,34,Flanged Ball Valve-Reduced Bore,2
+VLV3,36,900,1727,1755,1727,10089,5909,300,36,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+1/4,8,,,,5,5,150,0.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+3/8,10,,,,5,5,150,0.375,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+1/2,15,108,,,5,5,150,0.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+3/4,20,117,,,7,7,150,0.75,Flanged Ball Valve-Reduced Bore,2
+VLV3,1,25,127,140,,10,10,150,1,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/4,32,140,153,,16,15,150,1.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/2,40,165,178,190,16,15,150,1.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,2,50,178,191,216,26,15,150,2,Flanged Ball Valve-Reduced Bore,2
+VLV3,2+1/2,65,190,203,241,20,19,150,2.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,3,80,203,216,282,31,23,150,3,Flanged Ball Valve-Reduced Bore,2
+VLV3,4,100,229,242,305,62,40,150,4,Flanged Ball Valve-Reduced Bore,2
+VLV3,5,125,,,,,,150,5,Flanged Ball Valve-Reduced Bore,2
+VLV3,6,150,394,407,457,123,68,150,6,Flanged Ball Valve-Reduced Bore,2
+VLV3,8,200,457,470,521,225,132,150,8,Flanged Ball Valve-Reduced Bore,2
+VLV3,10,250,533,546,559,356,239,150,10,Flanged Ball Valve-Reduced Bore,2
+VLV3,12,300,610,623,635,562,382,150,12,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+1/2,15,140,151,,6,6,300,0.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,14,350,686,699,762,743,527,150,14,Flanged Ball Valve-Reduced Bore,2
+VLV3,16,400,762,775,838,999,605,150,16,Flanged Ball Valve-Reduced Bore,2
+VLV3,18,450,864,877,914,1292,773,150,18,Flanged Ball Valve-Reduced Bore,2
+VLV3,20,500,914,927,991,1454,1045,150,20,Flanged Ball Valve-Reduced Bore,2
+VLV3,22,550,,,1092,1882,1386,150,22,Flanged Ball Valve-Reduced Bore,2
+VLV3,24,600,1067,1080,1143,2398,1659,150,24,Flanged Ball Valve-Reduced Bore,2
+VLV3,26,650,,,1245,2993,2318,150,26,Flanged Ball Valve-Reduced Bore,2
+VLV3,28,700,,,1346,3896,2773,150,28,Flanged Ball Valve-Reduced Bore,2
+VLV3,30,750,,,1397,3958,3455,150,30,Flanged Ball Valve-Reduced Bore,2
+VLV3,32,800,,,1524,5333,3864,150,32,Flanged Ball Valve-Reduced Bore,2
+VLV3,34,850,,,1626,7692,,150,34,Flanged Ball Valve-Reduced Bore,2
+VLV3,36,900,,,1727,7692,5682,150,36,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+1/2,15,165,163,165,6,5,600,0.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+3/4,20,190,190,190,11,10,600,0.75,Flanged Ball Valve-Reduced Bore,2
+VLV3,1,25,216,216,216,16,15,600,1,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/4,32,229,229,229,27,18,600,1.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/2,40,241,241,241,29,20,600,1.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,2,50,292,295,292,33,21,600,2,Flanged Ball Valve-Reduced Bore,2
+VLV3,2+1/2,65,330,333,330,39,22,600,2.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,3,80,356,359,356,42,23,600,3,Flanged Ball Valve-Reduced Bore,2
+VLV3,4,100,432,435,432,100,40,600,4,Flanged Ball Valve-Reduced Bore,2
+VLV3,5,125,,,,,,600,5,Flanged Ball Valve-Reduced Bore,2
+VLV3,6,150,559,562,559,193,68,600,6,Flanged Ball Valve-Reduced Bore,2
+VLV3,8,200,660,663,660,367,132,600,8,Flanged Ball Valve-Reduced Bore,2
+VLV3,10,250,787,790,787,691,239,600,10,Flanged Ball Valve-Reduced Bore,2
+VLV3,12,300,838,841,838,1013,382,600,12,Flanged Ball Valve-Reduced Bore,2
+VLV3,14,350,889,892,889,1426,527,600,14,Flanged Ball Valve-Reduced Bore,2
+VLV3,16,400,991,994,991,1686,605,600,16,Flanged Ball Valve-Reduced Bore,2
+VLV3,18,450,1092,1095,1092,2102,873,600,18,Flanged Ball Valve-Reduced Bore,2
+VLV3,20,500,1194,1200,1194,2956,1205,600,20,Flanged Ball Valve-Reduced Bore,2
+VLV3,22,550,,,,2428,1500,600,22,Flanged Ball Valve-Reduced Bore,2
+VLV3,24,600,1397,1407,1397,4059,1955,600,24,Flanged Ball Valve-Reduced Bore,2
+VLV3,26,650,1448,1461,1448,4022,2318,600,26,Flanged Ball Valve-Reduced Bore,2
+VLV3,28,700,1549,1562,1549,4950,2864,600,28,Flanged Ball Valve-Reduced Bore,2
+VLV3,30,750,1651,1664,1651,7192,3545,600,30,Flanged Ball Valve-Reduced Bore,2
+VLV3,32,800,1778,1794,1778,7301,4250,600,32,Flanged Ball Valve-Reduced Bore,2
+VLV3,34,850,,,,12899,,600,34,Flanged Ball Valve-Reduced Bore,2
+VLV3,36,900,2083,2099,2083,12899,5909,600,36,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+3/4,20,,,,22,20,900,0.75,Flanged Ball Valve-Reduced Bore,2
+VLV3,1,25,254,254,254,41,22,900,1,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/4,32,279,279,279,47,24,900,1.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/2,40,305,305,305,50,26,900,1.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,2,50,368,371,368,47,28,900,2,Flanged Ball Valve-Reduced Bore,2
+VLV3,2+1/2,65,419,422,419,68,30,900,2.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,3,80,381,384,381,68,32,900,3,Flanged Ball Valve-Reduced Bore,2
+VLV3,4,100,457,460,457,125,68,900,4,Flanged Ball Valve-Reduced Bore,2
+VLV3,5,125,,,,,,900,5,Flanged Ball Valve-Reduced Bore,2
+VLV3,6,150,610,613,610,263,118,900,6,Flanged Ball Valve-Reduced Bore,2
+VLV3,8,200,737,740,737,558,295,900,8,Flanged Ball Valve-Reduced Bore,2
+VLV3,10,250,838,841,838,870,330,900,10,Flanged Ball Valve-Reduced Bore,2
+VLV3,12,300,965,968,965,1441,505,900,12,Flanged Ball Valve-Reduced Bore,2
+VLV3,14,350,1029,1039,1029,2020,764,900,14,Flanged Ball Valve-Reduced Bore,2
+VLV3,16,400,1130,1140,1130,2149,1045,900,16,Flanged Ball Valve-Reduced Bore,2
+VLV3,18,450,1219,1232,1219,3061,1300,900,18,Flanged Ball Valve-Reduced Bore,2
+VLV3,20,500,1321,1334,1321,4067,1700,900,20,Flanged Ball Valve-Reduced Bore,2
+VLV3,22,550,,,,6825,,900,22,Flanged Ball Valve-Reduced Bore,2
+VLV3,24,600,1549,1568,1549,6825,2400,900,24,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+1/2,15,,,,23,20,1500,0.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+3/4,20,,,,32,20,1500,0.75,Flanged Ball Valve-Reduced Bore,2
+VLV3,1,25,,,,41,22,1500,1,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/4,32,,,,52,24,1500,1.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/2,40,,,,56,26,1500,1.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,2,50,368,371,368,47,28,1500,2,Flanged Ball Valve-Reduced Bore,2
+VLV3,2+1/2,65,419,422,419,76,30,1500,2.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,3,80,470,473,470,93,32,1500,3,Flanged Ball Valve-Reduced Bore,2
+VLV3,4,100,546,549,546,161,68,1500,4,Flanged Ball Valve-Reduced Bore,2
+VLV3,5,125,,,,,,1500,5,Flanged Ball Valve-Reduced Bore,2
+VLV3,6,150,705,711,705,376,118,1500,6,Flanged Ball Valve-Reduced Bore,2
+VLV3,8,200,832,842,832,732,295,1500,8,Flanged Ball Valve-Reduced Bore,2
+VLV3,10,250,991,1001,991,1307,545,1500,10,Flanged Ball Valve-Reduced Bore,2
+VLV3,12,300,1130,1146,1130,2251,750,1500,12,Flanged Ball Valve-Reduced Bore,2
+VLV3,14,350,1257,1276,1257,3170,955,1500,14,Flanged Ball Valve-Reduced Bore,2
+VLV3,16,400,1384,1406,1384,4137,1239,1500,16,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+1/2,15,,,,32,25,2500,0.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,0+3/4,20,,,,42,27,2500,0.75,Flanged Ball Valve-Reduced Bore,2
+VLV3,1,25,,,,63,29,2500,1,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/4,32,,,,69,32,2500,1.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,1+1/2,40,,,,75,40,2500,1.25,Flanged Ball Valve-Reduced Bore,2
+VLV3,2,50,451,454,451,74,45,2500,2,Flanged Ball Valve-Reduced Bore,2
+VLV3,2+1/2,65,508,514,508,83,50,2500,2.5,Flanged Ball Valve-Reduced Bore,2
+VLV3,3,80,578,584,578,202,59,2500,3,Flanged Ball Valve-Reduced Bore,2
+VLV3,4,100,673,683,673,344,112,2500,4,Flanged Ball Valve-Reduced Bore,2
+VLV3,5,125,,,,,,2500,5,Flanged Ball Valve-Reduced Bore,2
+VLV3,6,150,914,927,914,678,233,2500,6,Flanged Ball Valve-Reduced Bore,2
+VLV3,8,200,1022,1038,1022,1414,462,2500,8,Flanged Ball Valve-Reduced Bore,2
+VLV3,10,250,1270,1292,1270,2191,871,2500,10,Flanged Ball Valve-Reduced Bore,2
+VLV3,12,300,1422,1444,1422,3336,1208,2500,12,Flanged Ball Valve-Reduced Bore,2
+VLV3-2,0+1/2,15,140,,,6,6,300,0.5,Flanged Ball Valve -Short Pattern,2
+VLV3-2,0+1/2,15,108,,,5,5,150,0.5,Flanged Ball Valve -Short Pattern,2
+VLV3-2,0+3/4,20,152,,,7,7,300,0.75,Flanged Ball Valve -Short Pattern,2
+VLV3-2,0+3/4,20,117,,,7,7,150,0.75,Flanged Ball Valve -Short Pattern,2
+VLV3-2,1,25,165,,,10,10,300,1,Flanged Ball Valve -Short Pattern,2
+VLV3-2,1,25,127,,,10,10,150,1,Flanged Ball Valve -Short Pattern,2
+VLV3-2,1+1/4,32,178,,,12,12,300,1.5,Flanged Ball Valve -Short Pattern,2
+VLV3-2,1+1/4,32,140,,,6,6,150,1.5,Flanged Ball Valve -Short Pattern,2
+VLV3-2,1+1/2,40,190,,,14,14,300,1.25,Flanged Ball Valve -Short Pattern,2
+VLV3-2,1+1/2,40,165,,,10,10,150,1.25,Flanged Ball Valve -Short Pattern,2
+VLV3-2,2,50,178,,,12,12,150,2,Flanged Ball Valve -Short Pattern,2
+VLV3-2,2,50,216,,,18,18,300,2,Flanged Ball Valve -Short Pattern,2
+VLV3-2,2+1/2,65,190,,,14,14,150,2.5,Flanged Ball Valve -Short Pattern,2
+VLV3-2,2+1/2,65,241,,,27,23,300,2.5,Flanged Ball Valve -Short Pattern,2
+VLV3-2,3,80,203,,,25,23,150,3,Flanged Ball Valve -Short Pattern,2
+VLV3-2,3,80,282,,,29,23,300,3,Flanged Ball Valve -Short Pattern,2
+VLV3-2,4,100,229,,,45,40,150,4,Flanged Ball Valve -Short Pattern,2
+VLV3-2,4,100,305,,,43,40,300,4,Flanged Ball Valve -Short Pattern,2
+VLV3-2,6,150,403,,,82,68,300,6,Flanged Ball Valve -Short Pattern,2
+VLV3-2,6,150,267,,,63,55,150,6,Flanged Ball Valve -Short Pattern,2
+VLV3-2,8,200,419,,,166,132,300,8,Flanged Ball Valve -Short Pattern,2
+VLV3-2,8,200,292,,,120,101,150,8,Flanged Ball Valve -Short Pattern,2
+VLV3-2,10,250,457,,,285,231,300,10,Flanged Ball Valve -Short Pattern,2
+VLV3-2,10,250,330,,,210,178,150,10,Flanged Ball Valve -Short Pattern,2
+VLV3-2,12,300,356,,,303,268,150,12,Flanged Ball Valve -Short Pattern,2
+VLV3-2,12,300,502,,,443,355,300,12,Flanged Ball Valve -Short Pattern,2
+VLV3-2,14,350,572,,,526,475,300,14,Flanged Ball Valve -Short Pattern,2
+VLV3-2,14,350,381,,,388,351,150,14,Flanged Ball Valve -Short Pattern,2
+VLV3-2,16,400,406,,,421,387,150,16,Flanged Ball Valve -Short Pattern,2
+VLV3-2,16,400,610,,,659,528,300,16,Flanged Ball Valve -Short Pattern,2
+VLV3-2,18,450,660,,,784,670,150,18,Flanged Ball Valve -Short Pattern,2
+VLV3-2,20,500,711,,,1213,900,300,20,Flanged Ball Valve -Short Pattern,2
+VLV3-2,24,600,813,,,1745,1416,300,24,Flanged Ball Valve -Short Pattern,2
+VLV3-2,26,650,1245,,,2614,2318,300,26,Flanged Ball Valve -Short Pattern,2
+VLV3-2,28,700,1346,,,3300,2773,300,28,Flanged Ball Valve -Short Pattern,2
+VLV3-2,30,750,1397,,,4136,3455,300,30,Flanged Ball Valve -Short Pattern,2
+VLV3-2,32,800,1524,,,4614,4000,300,32,Flanged Ball Valve -Short Pattern,2
+VLV3-2,34,850,1626,,,5700,,300,34,Flanged Ball Valve -Short Pattern,2
+VLV3-2,36,900,1727,,,6977,5909,300,36,Flanged Ball Valve -Short Pattern,2
+VLV1,0+1/4,8,102,,102,5,4,150,0.25,Flanged Gate Valve,3
+VLV1,0+3/8,10,102,,102,5,4,150,0.375,Flanged Gate Valve,3
+VLV1,0+1/2,15,108,,108,5,4,150,0.5,Flanged Gate Valve,3
+VLV1,0+3/4,20,117,,117,7,5,150,0.75,Flanged Gate Valve,3
+VLV1,1,25,127,140,127,10,8,150,1,Flanged Gate Valve,3
+VLV1,1+1/4,32,140,153,140,15,12,150,1.5,Flanged Gate Valve,3
+VLV1,1+1/2,40,165,178,165,18,15,150,1.25,Flanged Gate Valve,3
+VLV1,2,50,178,191,216,18,15,150,2,Flanged Gate Valve,3
+VLV1,2+1/2,65,190,203,241,28,23,150,2.5,Flanged Gate Valve,3
+VLV1,3,80,203,216,282,34,28,150,3,Flanged Gate Valve,3
+VLV1,4,100,229,242,305,52,44,150,4,Flanged Gate Valve,3
+VLV1,5,125,254,267,381,71,60,150,5,Flanged Gate Valve,3
+VLV1,6,150,267,280,403,88,74,150,6,Flanged Gate Valve,3
+VLV1,8,200,292,305,419,144,122,150,8,Flanged Gate Valve,3
+VLV1,10,250,330,343,457,197,167,150,10,Flanged Gate Valve,3
+VLV1,12,300,356,369,502,298,253,150,12,Flanged Gate Valve,3
+VLV1,14,350,381,394,572,406,345,150,14,Flanged Gate Valve,3
+VLV1,16,400,406,419,610,524,445,150,16,Flanged Gate Valve,3
+VLV1,18,450,432,445,660,720,612,150,18,Flanged Gate Valve,3
+VLV1,20,500,457,470,711,1117,949,150,20,Flanged Gate Valve,3
+VLV1,22,550,,,,,,150,22,Flanged Gate Valve,3
+VLV1,24,600,508,521,813,1466,1246,150,24,Flanged Gate Valve,3
+VLV1,26,650,559,,864,1699,1444,150,26,Flanged Gate Valve,3
+VLV1,28,700,610,,914,1931,1641,150,28,Flanged Gate Valve,3
+VLV1,30,750,610,,914,2380,2023,150,30,Flanged Gate Valve,3
+VLV1,32,800,,,,2490,2116,150,32,Flanged Gate Valve,3
+VLV1,34,850,,,,,,150,34,Flanged Gate Valve,3
+VLV1,36,900,711,,1016,3600,3060,150,36,Flanged Gate Valve,3
+VLV1,0+1/2,15,140,151,140,6,5,300,0.5,Flanged Gate Valve,3
+VLV1,0+3/4,20,152,165,152,7,5,300,0.75,Flanged Gate Valve,3
+VLV1,1,25,165,178,165,10,8,300,1,Flanged Gate Valve,3
+VLV1,1+1/4,32,178,191,178,23,19,300,1.5,Flanged Gate Valve,3
+VLV1,1+1/2,40,190,203,190,26,22,300,1.25,Flanged Gate Valve,3
+VLV1,2,50,216,232,216,24,20,300,2,Flanged Gate Valve,3
+VLV1,2+1/2,65,241,257,241,44,37,300,2.5,Flanged Gate Valve,3
+VLV1,3,80,282,298,282,52,44,300,3,Flanged Gate Valve,3
+VLV1,4,100,305,321,305,76,64,300,4,Flanged Gate Valve,3
+VLV1,5,125,381,397,381,94,79,300,5,Flanged Gate Valve,3
+VLV1,6,150,403,419,403,146,124,300,6,Flanged Gate Valve,3
+VLV1,8,200,419,435,419,218,185,300,8,Flanged Gate Valve,3
+VLV1,10,250,457,473,457,352,299,300,10,Flanged Gate Valve,3
+VLV1,12,300,502,518,502,472,401,300,12,Flanged Gate Valve,3
+VLV1,14,350,762,778,762,694,589,300,14,Flanged Gate Valve,3
+VLV1,16,400,838,854,838,1080,918,300,16,Flanged Gate Valve,3
+VLV1,18,450,914,930,914,1235,1049,300,18,Flanged Gate Valve,3
+VLV1,20,500,991,1010,991,1655,1406,300,20,Flanged Gate Valve,3
+VLV1,22,550,,,,,,300,22,Flanged Gate Valve,3
+VLV1,24,600,1143,1165,1143,2320,1972,300,24,Flanged Gate Valve,3
+VLV1,26,650,1245,1270,1245,3100,2635,300,26,Flanged Gate Valve,3
+VLV1,28,700,1346,1371,1346,3893,3309,300,28,Flanged Gate Valve,3
+VLV1,30,750,1397,1422,1397,4930,4190,300,30,Flanged Gate Valve,3
+VLV1,32,800,1524,1552,1524,5230,4445,300,32,Flanged Gate Valve,3
+VLV1,34,850,1626,1654,1626,6000,5100,300,34,Flanged Gate Valve,3
+VLV1,36,900,1727,1755,1727,6885,5852,300,36,Flanged Gate Valve,3
+VLV1,0+1/2,15,165,163,165,5,4,600,0.5,Flanged Gate Valve,3
+VLV1,0+3/4,20,190,190,190,10,8,600,0.75,Flanged Gate Valve,3
+VLV1,1,25,216,216,216,15,12,600,1,Flanged Gate Valve,3
+VLV1,1+1/4,32,229,229,229,26,22,600,1.5,Flanged Gate Valve,3
+VLV1,1+1/2,40,241,241,241,27,22,600,1.25,Flanged Gate Valve,3
+VLV1,2,50,292,295,292,46,39,600,2,Flanged Gate Valve,3
+VLV1,2+1/2,65,330,333,330,55,46,600,2.5,Flanged Gate Valve,3
+VLV1,3,80,356,359,356,72,61,600,3,Flanged Gate Valve,3
+VLV1,4,100,432,435,432,120,100,600,4,Flanged Gate Valve,3
+VLV1,5,125,508,511,508,190,165,600,5,Flanged Gate Valve,3
+VLV1,6,150,559,562,559,253,215,600,6,Flanged Gate Valve,3
+VLV1,8,200,660,663,660,413,351,600,8,Flanged Gate Valve,3
+VLV1,10,250,787,790,787,623,529,600,10,Flanged Gate Valve,3
+VLV1,12,300,838,841,838,981,833,600,12,Flanged Gate Valve,3
+VLV1,14,350,889,892,889,1316,1118,600,14,Flanged Gate Valve,3
+VLV1,16,400,991,994,991,1672,1421,600,16,Flanged Gate Valve,3
+VLV1,18,450,1092,1095,1092,2070,1759,600,18,Flanged Gate Valve,3
+VLV1,20,500,1194,1200,1194,2405,2044,600,20,Flanged Gate Valve,3
+VLV1,22,550,1295,1305,1295,3000,2800,600,22,Flanged Gate Valve,3
+VLV1,24,600,1397,1407,1397,4550,3867,600,24,Flanged Gate Valve,3
+VLV1,26,650,1448,1461,1448,5260,4471,600,26,Flanged Gate Valve,3
+VLV1,28,700,1549,1562,1549,5960,5066,600,28,Flanged Gate Valve,3
+VLV1,30,750,1651,1664,1651,6700,5695,600,30,Flanged Gate Valve,3
+VLV1,32,800,1778,1794,1778,8312,7065,600,32,Flanged Gate Valve,3
+VLV1,34,850,1930,1946,1930,9000,7800,600,34,Flanged Gate Valve,3
+VLV1,36,900,2083,2099,2083,10125,8606,600,36,Flanged Gate Valve,3
+VLV1,0+3/4,20,,,,20,17,900,0.75,Flanged Gate Valve,3
+VLV1,1,25,254,254,254,38,32,900,1,Flanged Gate Valve,3
+VLV1,1+1/4,32,279,279,279,49,41,900,1.5,Flanged Gate Valve,3
+VLV1,1+1/2,40,305,305,305,61,51,900,1.25,Flanged Gate Valve,3
+VLV1,2,50,368,371,368,95,80,900,2,Flanged Gate Valve,3
+VLV1,2+1/2,65,419,422,419,108,91,900,2.5,Flanged Gate Valve,3
+VLV1,3,80,381,384,381,125,106,900,3,Flanged Gate Valve,3
+VLV1,4,100,457,460,457,192,163,900,4,Flanged Gate Valve,3
+VLV1,5,125,559,562,559,280,240,900,5,Flanged Gate Valve,3
+VLV1,6,150,610,613,610,378,321,900,6,Flanged Gate Valve,3
+VLV1,8,200,737,740,737,635,539,900,8,Flanged Gate Valve,3
+VLV1,10,250,838,841,838,900,765,900,10,Flanged Gate Valve,3
+VLV1,12,300,965,968,965,1550,1317,900,12,Flanged Gate Valve,3
+VLV1,14,350,1029,1039,1029,2170,1844,900,14,Flanged Gate Valve,3
+VLV1,16,400,1130,1140,1130,3070,2609,900,16,Flanged Gate Valve,3
+VLV1,18,450,1219,1232,1219,3930,3340,900,18,Flanged Gate Valve,3
+VLV1,20,500,1321,1334,1321,5120,4352,900,20,Flanged Gate Valve,3
+VLV1,22,550,,,,,,900,22,Flanged Gate Valve,3
+VLV1,24,600,1549,1568,1549,7800,6630,900,24,Flanged Gate Valve,3
+VLV1,0+1/2,15,,,,,,1500,0.5,Flanged Gate Valve,3
+VLV1,0+3/4,20,,,,,,1500,0.75,Flanged Gate Valve,3
+VLV1,1,25,254,254,254,38,32,1500,1,Flanged Gate Valve,3
+VLV1,1+1/4,32,279,279,279,49,41,1500,1.5,Flanged Gate Valve,3
+VLV1,1+1/2,40,305,305,305,61,51,1500,1.25,Flanged Gate Valve,3
+VLV1,2,50,368,371,368,82,69,1500,2,Flanged Gate Valve,3
+VLV1,2+1/2,65,419,422,419,127,107,1500,2.5,Flanged Gate Valve,3
+VLV1,3,80,470,473,470,168,142,1500,3,Flanged Gate Valve,3
+VLV1,4,100,546,549,546,277,235,1500,4,Flanged Gate Valve,3
+VLV1,5,125,673,676,673,300,280,1500,5,Flanged Gate Valve,3
+VLV1,6,150,705,711,705,640,544,1500,6,Flanged Gate Valve,3
+VLV1,8,200,832,842,832,1180,1003,1500,8,Flanged Gate Valve,3
+VLV1,10,250,991,1001,991,2118,1800,1500,10,Flanged Gate Valve,3
+VLV1,12,300,1130,1146,1130,3244,2757,1500,12,Flanged Gate Valve,3
+VLV1,14,350,1257,1276,1257,3693,3139,1500,14,Flanged Gate Valve,3
+VLV1,16,400,1384,1406,1384,4890,4156,1500,16,Flanged Gate Valve,3
+VLV1,18,450,1537,1559,1537,7000,5950,1500,18,Flanged Gate Valve,3
+VLV1,20,500,1664,1686,1664,7555,6421,1500,20,Flanged Gate Valve,3
+VLV1,22,550,,,,,,1500,22,Flanged Gate Valve,3
+VLV1,24,600,1943,1971,1943,9096,7731,1500,24,Flanged Gate Valve,3
+VLV1,0+1/2,15,264,264,264,30,25,2500,0.5,Flanged Gate Valve,3
+VLV1,0+3/4,20,273,273,273,40,34,2500,0.75,Flanged Gate Valve,3
+VLV1,1,25,308,308,308,60,51,2500,1,Flanged Gate Valve,3
+VLV1,1+1/4,32,349,352,349,75,63,2500,1.5,Flanged Gate Valve,3
+VLV1,1+1/2,40,384,387,384,90,76,2500,1.25,Flanged Gate Valve,3
+VLV1,2,50,451,454,451,135,114,2500,2,Flanged Gate Valve,3
+VLV1,2+1/2,65,508,514,508,210,178,2500,2.5,Flanged Gate Valve,3
+VLV1,3,80,578,584,578,271,230,2500,3,Flanged Gate Valve,3
+VLV1,4,100,673,683,673,506,430,2500,4,Flanged Gate Valve,3
+VLV1,5,125,794,807,794,550,490,2500,5,Flanged Gate Valve,3
+VLV1,6,150,914,927,914,615,550,2500,6,Flanged Gate Valve,3
+VLV1,8,200,1022,1038,1022,1090,940,2500,8,Flanged Gate Valve,3
+VLV1,10,250,1270,1292,1270,2520,2100,2500,10,Flanged Gate Valve,3
+VLV1,12,300,1422,1444,1422,3310,2650,2500,12,Flanged Gate Valve,3
+VLV2,0+1/4,8,102,,102,5,5,150,0.25,Flanged Globe Valve,4
+VLV2,0+3/8,10,102,,102,5,5,150,0.375,Flanged Globe Valve,4
+VLV2,0+1/2,15,108,,108,5,5,150,0.5,Flanged Globe Valve,4
+VLV2,0+3/4,20,117,,117,7,6,150,0.75,Flanged Globe Valve,4
+VLV2,1,25,127,140,127,10,9,150,1,Flanged Globe Valve,4
+VLV2,1+1/4,32,140,153,140,16,13,150,1.5,Flanged Globe Valve,4
+VLV2,1+1/2,40,165,178,165,19,16,150,1.25,Flanged Globe Valve,4
+VLV2,2,50,203,216,203,23,19,150,2,Flanged Globe Valve,4
+VLV2,2+1/2,65,216,229,216,31,26,150,2.5,Flanged Globe Valve,4
+VLV2,3,80,241,254,241,43,36,150,3,Flanged Globe Valve,4
+VLV2,4,100,292,305,292,62,51,150,4,Flanged Globe Valve,4
+VLV2,5,125,356,369,356,80,66,150,5,Flanged Globe Valve,4
+VLV2,6,150,406,419,406,104,86,150,6,Flanged Globe Valve,4
+VLV2,8,200,495,508,495,164,137,150,8,Flanged Globe Valve,4
+VLV2,10,250,622,635,622,377,262,150,10,Flanged Globe Valve,4
+VLV2,12,300,698,711,698,500,349,150,12,Flanged Globe Valve,4
+VLV2,14,350,787,800,787,743,519,150,14,Flanged Globe Valve,4
+VLV2,16,400,914,927,914,1071,748,150,16,Flanged Globe Valve,4
+VLV2,18,450,978,991,978,1400,978,150,18,Flanged Globe Valve,4
+VLV2,20,500,978,991,978,2006,1403,150,20,Flanged Globe Valve,4
+VLV2,22,550,1067,1080,1067,228,1600,150,22,Flanged Globe Valve,4
+VLV2,24,600,1295,1308,1295,2674,1870,150,24,Flanged Globe Valve,4
+VLV2,26,650,1295,,1295,2927,2040,150,26,Flanged Globe Valve,4
+VLV2,28,700,1448,,1448,3416,2380,150,28,Flanged Globe Valve,4
+VLV2,30,750,1524,,1524,3778,2635,150,30,Flanged Globe Valve,4
+VLV2,32,800,,,,5035,,150,32,Flanged Globe Valve,4
+VLV2,34,850,,,,5035,,150,34,Flanged Globe Valve,4
+VLV2,36,900,1956,,1956,5035,3485,150,36,Flanged Globe Valve,4
+VLV2,0+1/2,15,152,163,152,6,5,300,0.5,Flanged Globe Valve,4
+VLV2,0+3/4,20,178,191,178,8,6,300,0.75,Flanged Globe Valve,4
+VLV2,1,25,203,216,203,11,9,300,1,Flanged Globe Valve,4
+VLV2,1+1/4,32,216,229,216,24,20,300,1.5,Flanged Globe Valve,4
+VLV2,1+1/2,40,229,242,229,27,22,300,1.25,Flanged Globe Valve,4
+VLV2,2,50,267,283,267,33,27,300,2,Flanged Globe Valve,4
+VLV2,2+1/2,65,292,308,292,51,41,300,2.5,Flanged Globe Valve,4
+VLV2,3,80,318,334,318,61,50,300,3,Flanged Globe Valve,4
+VLV2,4,100,356,372,356,89,73,300,4,Flanged Globe Valve,4
+VLV2,5,125,400,416,400,133,111,300,5,Flanged Globe Valve,4
+VLV2,6,150,444,460,444,155,128,300,6,Flanged Globe Valve,4
+VLV2,8,200,559,575,559,484,338,300,8,Flanged Globe Valve,4
+VLV2,10,250,622,638,622,648,448,300,10,Flanged Globe Valve,4
+VLV2,12,300,711,727,711,752,517,300,12,Flanged Globe Valve,4
+VLV2,0+1/2,15,165,163,165,6,7,600,0.5,Flanged Globe Valve,4
+VLV2,0+3/4,20,190,190,190,11,9,600,0.75,Flanged Globe Valve,4
+VLV2,1,25,216,216,216,16,13,600,1,Flanged Globe Valve,4
+VLV2,1+1/4,32,229,229,229,27,22,600,1.5,Flanged Globe Valve,4
+VLV2,1+1/2,40,241,241,241,29,23,600,1.25,Flanged Globe Valve,4
+VLV2,2,50,292,295,292,59,49,600,2,Flanged Globe Valve,4
+VLV2,2+1/2,65,330,333,330,76,62,600,2.5,Flanged Globe Valve,4
+VLV2,3,80,356,359,356,92,76,600,3,Flanged Globe Valve,4
+VLV2,4,100,432,435,432,155,127,600,4,Flanged Globe Valve,4
+VLV2,5,125,508,511,508,278,210,600,5,Flanged Globe Valve,4
+VLV2,6,150,559,562,559,513,355,600,6,Flanged Globe Valve,4
+VLV2,8,200,660,663,660,667,461,600,8,Flanged Globe Valve,4
+VLV2,10,250,787,790,787,871,595,600,10,Flanged Globe Valve,4
+VLV2,12,300,838,841,838,1120,765,600,12,Flanged Globe Valve,4
+VLV2,14,350,889,892,889,1631,1119,600,14,Flanged Globe Valve,4
+VLV2,16,400,991,994,991,2074,1422,600,16,Flanged Globe Valve,4
+VLV2,18,450,1092,1095,1092,2570,1760,600,18,Flanged Globe Valve,4
+VLV2,20,500,1194,1200,1194,2992,2045,600,20,Flanged Globe Valve,4
+VLV2,22,550,1295,1305,1295,4020,3000,600,22,Flanged Globe Valve,4
+VLV2,24,600,1397,1407,1397,5621,3868,600,24,Flanged Globe Valve,4
+VLV2,26,650,1448,1461,1448,6516,4471,600,26,Flanged Globe Valve,4
+VLV2,28,700,1600,1613,1600,7411,5066,600,28,Flanged Globe Valve,4
+VLV2,30,750,1651,1664,1651,8310,5695,600,30,Flanged Globe Valve,4
+VLV2,32,800,,,,12598,,600,32,Flanged Globe Valve,4
+VLV2,34,850,,,,12598,,600,34,Flanged Globe Valve,4
+VLV2,36,900,2083,2099,2083,12598,8607,600,36,Flanged Globe Valve,4
+VLV2,0+3/4,20,229,229,229,22,17,900,0.75,Flanged Globe Valve,4
+VLV2,1,25,254,254,254,41,33,900,1,Flanged Globe Valve,4
+VLV2,1+1/4,32,279,279,279,52,42,900,1.5,Flanged Globe Valve,4
+VLV2,1+1/2,40,305,305,305,65,52,900,1.25,Flanged Globe Valve,4
+VLV2,2,50,368,371,368,93,74,900,2,Flanged Globe Valve,4
+VLV2,2+1/2,65,419,422,419,138,111,900,2.5,Flanged Globe Valve,4
+VLV2,3,80,381,384,381,128,104,900,3,Flanged Globe Valve,4
+VLV2,4,100,457,460,457,229,155,900,4,Flanged Globe Valve,4
+VLV2,5,125,559,562,559,386,255,900,5,Flanged Globe Valve,4
+VLV2,6,150,610,613,610,538,369,900,6,Flanged Globe Valve,4
+VLV2,8,200,737,740,737,906,621,900,8,Flanged Globe Valve,4
+VLV2,10,250,838,841,838,1519,1047,900,10,Flanged Globe Valve,4
+VLV2,12,300,965,968,965,1937,1333,900,12,Flanged Globe Valve,4
+VLV2,14,350,1029,1039,1029,2662,1845,900,14,Flanged Globe Valve,4
+VLV2,16,400,1130,1140,1130,3757,2610,900,16,Flanged Globe Valve,4
+VLV2,18,450,1219,1232,1219,4849,3341,900,18,Flanged Globe Valve,4
+VLV2,20,500,1321,1334,1321,6311,4352,900,20,Flanged Globe Valve,4
+VLV2,22,550,,,,9345,,900,22,Flanged Globe Valve,4
+VLV2,24,600,1549,1568,1549,9345,6375,900,24,Flanged Globe Valve,4
+VLV2,0+1/2,15,216,216,216,23,18,1500,0.5,Flanged Globe Valve,4
+VLV2,0+3/4,20,229,229,229,32,26,1500,0.75,Flanged Globe Valve,4
+VLV2,1,25,254,254,254,41,33,1500,1,Flanged Globe Valve,4
+VLV2,1+1/4,32,279,279,279,52,42,1500,1.5,Flanged Globe Valve,4
+VLV2,1+1/2,40,305,305,305,65,52,1500,1.25,Flanged Globe Valve,4
+VLV2,2,50,368,371,368,93,74,1500,2,Flanged Globe Valve,4
+VLV2,2+1/2,65,419,422,419,176,143,1500,2.5,Flanged Globe Valve,4
+VLV2,3,80,470,473,470,311,213,1500,3,Flanged Globe Valve,4
+VLV2,4,100,546,549,546,537,370,1500,4,Flanged Globe Valve,4
+VLV2,5,125,673,676,673,603,430,1500,5,Flanged Globe Valve,4
+VLV2,6,150,705,711,705,682,459,1500,6,Flanged Globe Valve,4
+VLV2,8,200,832,842,832,1217,825,1500,8,Flanged Globe Valve,4
+VLV2,10,250,991,1001,991,1905,1292,1500,10,Flanged Globe Valve,4
+VLV2,12,300,1130,1146,1130,2491,1666,1500,12,Flanged Globe Valve,4
+VLV2,14,350,1257,1276,1257,3402,2289,1500,14,Flanged Globe Valve,4
+VLV2,16,400,1384,1406,1384,4911,3307,1500,16,Flanged Globe Valve,4
+VLV2,18,450,1537,1559,1537,6338,4250,1500,18,Flanged Globe Valve,4
+VLV2,20,500,1664,1686,1664,8155,5487,1500,20,Flanged Globe Valve,4
+VLV2,22,550,,,,10362,,1500,22,Flanged Globe Valve,4
+VLV2,24,600,1943,1971,1943,10362,6882,1500,24,Flanged Globe Valve,4
+VLV2,0+1/2,15,264,264,264,32,26,2500,0.5,Flanged Globe Valve,4
+VLV2,0+3/4,20,273,273,273,42,34,2500,0.75,Flanged Globe Valve,4
+VLV2,1,25,308,308,308,63,51,2500,1,Flanged Globe Valve,4
+VLV2,1+1/4,32,349,352,349,79,64,2500,1.5,Flanged Globe Valve,4
+VLV2,1+1/2,40,384,387,384,95,77,2500,1.25,Flanged Globe Valve,4
+VLV2,2,50,451,454,451,126,100,2500,2,Flanged Globe Valve,4
+VLV2,2+1/2,65,508,514,508,229,185,2500,2.5,Flanged Globe Valve,4
+VLV2,3,80,578,584,578,370,251,2500,3,Flanged Globe Valve,4
+VLV2,4,100,673,683,673,699,476,2500,4,Flanged Globe Valve,4
+VLV2,5,125,794,807,794,756,560,2500,5,Flanged Globe Valve,4
+VLV2,6,150,914,927,914,990,655,2500,6,Flanged Globe Valve,4
+VLV2,8,200,1022,1038,1022,1593,1054,2500,8,Flanged Globe Valve,4
+VLV2,10,250,1270,1292,1270,2861,1889,2500,10,Flanged Globe Valve,4
+VLV2,12,300,1422,1444,1422,4242,2814,2500,12,Flanged Globe Valve,4
+VLV4,0+1/4,8,,,,,,150,0.25,Flanged Control Valve,5
+VLV4,0+3/8,10,,,,,,150,0.375,Flanged Control Valve,5
+VLV4,0+1/2,15,,,,5,3,150,0.5,Flanged Control Valve,5
+VLV4,0+3/4,20,,,,8,6,150,0.75,Flanged Control Valve,5
+VLV4,1,25,184,197,,10,7,150,1,Flanged Control Valve,5
+VLV4,1+1/4,32,200,213,,14,10,150,1.5,Flanged Control Valve,5
+VLV4,1+1/2,40,222,235,,18,15,150,1.25,Flanged Control Valve,5
+VLV4,2,50,254,267,,24,18,150,2,Flanged Control Valve,5
+VLV4,2+1/2,65,,,,43,34,150,2.5,Flanged Control Valve,5
+VLV4,3,80,298,311,,43,34,150,3,Flanged Control Valve,5
+VLV4,3+1/2,90,,,,,,150,3.5,Flanged Control Valve,5
+VLV4,4,100,352,365,,61,48,150,4,Flanged Control Valve,5
+VLV4,5,130,,,,,,150,5,Flanged Control Valve,5
+VLV4,6,150,451,464,,109,88,150,6,Flanged Control Valve,5
+VLV4,8,200,543,552,,170,136,150,8,Flanged Control Valve,5
+VLV4,10,250,673,686,,277,228,150,10,Flanged Control Valve,5
+VLV4,12,300,737,749,,386,313,150,12,Flanged Control Valve,5
+VLV4,0+1/4,8,,,,,,300,0.25,Flanged Control Valve,5
+VLV4,0+3/8,10,,,,,,300,0.375,Flanged Control Valve,5
+VLV4,0+1/2,15,190,,,6,4,300,0.5,Flanged Control Valve,5
+VLV4,0+3/4,20,194,206,,8,5,300,0.75,Flanged Control Valve,5
+VLV4,1,25,194,210,,11,8,300,1,Flanged Control Valve,5
+VLV4,1+1/4,32,,,,,,300,1.5,Flanged Control Valve,5
+VLV4,1+1/2,40,235,248,,27,23,300,1.25,Flanged Control Valve,5
+VLV4,2,50,267,283,,31,24,300,2,Flanged Control Valve,5
+VLV4,2+1/2,65,,,,,,300,2.5,Flanged Control Valve,5
+VLV4,3,80,318,333,,64,52,300,3,Flanged Control Valve,5
+VLV4,3+1/2,90,,,,,,300,3.5,Flanged Control Valve,5
+VLV4,4,100,368,384,,95,76,300,4,Flanged Control Valve,5
+VLV4,5,130,,,,,,300,5,Flanged Control Valve,5
+VLV4,6,150,473,489,,195,160,300,6,Flanged Control Valve,5
+VLV4,8,200,568,584,,286,233,300,8,Flanged Control Valve,5
+VLV4,10,250,708,724,,454,382,300,10,Flanged Control Valve,5
+VLV4,12,300,806,813,,697,596,300,12,Flanged Control Valve,5
+VLV4,0+1/4,8,,,,,,600,0.25,Flanged Control Valve,5
+VLV4,0+3/8,10,,,,,,600,0.375,Flanged Control Valve,5
+VLV4,0+1/2,15,203,202,,5,3,600,0.5,Flanged Control Valve,5
+VLV4,0+3/4,20,206,206,,10,7,600,0.75,Flanged Control Valve,5
+VLV4,1,25,210,210,,15,11,600,1,Flanged Control Valve,5
+VLV4,1+1/4,32,251,251,,20,15,600,1.5,Flanged Control Valve,5
+VLV4,1+1/2,40,251,251,,27,21,600,1.25,Flanged Control Valve,5
+VLV4,2,50,286,289,,43,35,600,2,Flanged Control Valve,5
+VLV4,2+1/2,65,311,316,,62,51,600,2.5,Flanged Control Valve,5
+VLV4,3,80,337,340,,81,67,600,3,Flanged Control Valve,5
+VLV4,3+1/2,90,,,,,,600,3.5,Flanged Control Valve,5
+VLV4,4,100,394,397,,152,120,600,4,Flanged Control Valve,5
+VLV4,5,130,,,,,,600,5,Flanged Control Valve,5
+VLV4,6,150,508,511,,328,256,600,6,Flanged Control Valve,5
+VLV4,8,200,610,613,,566,462,600,8,Flanged Control Valve,5
+VLV4,10,250,851,845,,852,698,600,10,Flanged Control Valve,5
+VLV4,0+1/4,8,,,,,,900,0.25,Flanged Control Valve,5
+VLV4,0+3/8,10,,,,,,900,0.375,Flanged Control Valve,5
+VLV4,0+1/2,15,,,,,,900,0.5,Flanged Control Valve,5
+VLV4,0+3/4,20,,,,,,900,0.75,Flanged Control Valve,5
+VLV4,1,25,,,,38,32,900,1,Flanged Control Valve,5
+VLV4,1+1/4,32,,,,49,41,900,1.5,Flanged Control Valve,5
+VLV4,1+1/2,40,,,,61,51,900,1.25,Flanged Control Valve,5
+VLV4,2,50,,,,84,62,900,2,Flanged Control Valve,5
+VLV4,2+1/2,65,,,,99,77,900,2.5,Flanged Control Valve,5
+VLV4,3,80,441,479,,116,92,900,3,Flanged Control Valve,5
+VLV4,3+1/2,90,,,,,,900,3.5,Flanged Control Valve,5
+VLV4,4,100,511,514,,200,152,900,4,Flanged Control Valve,5
+VLV4,5,130,,,,,,900,5,Flanged Control Valve,5
+VLV4,6,150,714,718,,408,308,900,6,Flanged Control Valve,5
+VLV4,0+1/4,8,,,,,,1500,0.25,Flanged Control Valve,5
+VLV4,0+3/8,10,,,,,,1500,0.375,Flanged Control Valve,5
+VLV4,0+1/2,15,,,,,,1500,0.5,Flanged Control Valve,5
+VLV4,0+3/4,20,,,,,,1500,0.75,Flanged Control Valve,5
+VLV4,1,25,,,,38,31,1500,1,Flanged Control Valve,5
+VLV4,1+1/4,32,,,,49,,1500,1.5,Flanged Control Valve,5
+VLV4,1+1/2,40,,,,61,53,1500,1.25,Flanged Control Valve,5
+VLV4,2,50,,,,83,65,1500,2,Flanged Control Valve,5
+VLV4,2+1/2,65,,,,125,,1500,2.5,Flanged Control Valve,5
+VLV4,3,80,460,464,,167,125,1500,3,Flanged Control Valve,5
+VLV4,3+1/2,90,,,,,,1500,3.5,Flanged Control Valve,5
+VLV4,4,100,530,533,,299,233,1500,4,Flanged Control Valve,5
+VLV4,5,130,,,,,,1500,5,Flanged Control Valve,5
+VLV4,6,150,768,775,,639,489,1500,6,Flanged Control Valve,5
+VLV4,0+1/2,15,,,,30,23,2500,0.5,Flanged Control Valve,5
+VLV4,0+3/4,20,,,,40,33,2500,0.75,Flanged Control Valve,5
+VLV4,1,25,,,,60,50,2500,1,Flanged Control Valve,5
+VLV4,1+1/4,32,,,,75,60,2500,1.5,Flanged Control Valve,5
+VLV4,1+1/2,40,,,,90,70,2500,1.25,Flanged Control Valve,5
+VLV4,2,50,,,,120,85,2500,2,Flanged Control Valve,5
+VLV4,2+1/2,65,,,,150,80,2500,2.5,Flanged Control Valve,5
+VLV4,3,80,498,505,,140,85,2500,3,Flanged Control Valve,5
+VLV4,3+1/2,90,,,,,,2500,3.5,Flanged Control Valve,5
+VLV4,4,100,575,584,,225,111,2500,4,Flanged Control Valve,5
+VLV4,5,130,,,,,,2500,5,Flanged Control Valve,5
+VLV4,6,150,819,832,,770,474,2500,6,Flanged Control Valve,5
+,,,,,,24,24,150,0.25,Instrument-ESDV/UZV,
+,,,,,,24,24,150,0.375,Instrument-ESDV/UZV,
+,,,,,,15,15,150,0.5,Instrument-ESDV/UZV,
+,,,,,,24,24,150,0.75,Instrument-ESDV/UZV,
+,,,,,,15,15,150,1,Instrument-ESDV/UZV,
+,,,,,,28,28,150,1.25,Instrument-ESDV/UZV,
+,,,,,,22,22,150,1.5,Instrument-ESDV/UZV,
+,,,,,,30,30,150,2,Instrument-ESDV/UZV,
+,,,,,,63,63,150,3,Instrument-ESDV/UZV,
+,,,,,,87,87,150,4,Instrument-ESDV/UZV,
+,,,,,,299,299,150,6,Instrument-ESDV/UZV,
+,,,,,,455,455,150,8,Instrument-ESDV/UZV,
+,,,,,,704,704,150,10,Instrument-ESDV/UZV,
+,,,,,,1208,1208,150,12,Instrument-ESDV/UZV,
+,,,,,,1574,1574,150,14,Instrument-ESDV/UZV,
+,,,,,,2309,2309,150,16,Instrument-ESDV/UZV,
+,,,,,,3039,3039,150,18,Instrument-ESDV/UZV,
+,,,,,,3276,3276,150,20,Instrument-ESDV/UZV,
+,,,,,,4247,4247,150,22,Instrument-ESDV/UZV,
+,,,,,,5625,5625,150,24,Instrument-ESDV/UZV,
+,,,,,,7067,7067,150,26,Instrument-ESDV/UZV,
+,,,,,,8166,8166,150,28,Instrument-ESDV/UZV,
+,,,,,,9501,9501,150,30,Instrument-ESDV/UZV,
+,,,,,,12420,12420,150,32,Instrument-ESDV/UZV,
+,,,,,,14964,14964,150,34,Instrument-ESDV/UZV,
+,,,,,,18425,18425,150,36,Instrument-ESDV/UZV,
+,,,,,,15,15,300,0.5,Instrument-ESDV/UZV,
+,,,,,,15,15,300,0.75,Instrument-ESDV/UZV,
+,,,,,,15,15,300,1,Instrument-ESDV/UZV,
+,,,,,,40,40,300,1.25,Instrument-ESDV/UZV,
+,,,,,,24,24,300,1.5,Instrument-ESDV/UZV,
+,,,,,,47,47,300,2,Instrument-ESDV/UZV,
+,,,,,,89,89,300,3,Instrument-ESDV/UZV,
+,,,,,,149,149,300,4,Instrument-ESDV/UZV,
+,,,,,,341,341,300,6,Instrument-ESDV/UZV,
+,,,,,,528,528,300,8,Instrument-ESDV/UZV,
+,,,,,,936,936,300,10,Instrument-ESDV/UZV,
+,,,,,,1299,1299,300,12,Instrument-ESDV/UZV,
+,,,,,,1932,1932,300,14,Instrument-ESDV/UZV,
+,,,,,,2625,2625,300,16,Instrument-ESDV/UZV,
+,,,,,,2949,2949,300,18,Instrument-ESDV/UZV,
+,,,,,,4041,4041,300,20,Instrument-ESDV/UZV,
+,,,,,,5019,5019,300,22,Instrument-ESDV/UZV,
+,,,,,,6900,6900,300,24,Instrument-ESDV/UZV,
+,,,,,,8574,8574,300,26,Instrument-ESDV/UZV,
+,,,,,,11348,11348,300,28,Instrument-ESDV/UZV,
+,,,,,,12110,12110,300,30,Instrument-ESDV/UZV,
+,,,,,,14553,14553,300,32,Instrument-ESDV/UZV,
+,,,,,,16554,16554,300,34,Instrument-ESDV/UZV,
+,,,,,,20438,20438,300,36,Instrument-ESDV/UZV,
+,,,,,,15,15,600,0.5,Instrument-ESDV/UZV,
+,,,,,,15,15,600,0.75,Instrument-ESDV/UZV,
+,,,,,,23,23,600,1,Instrument-ESDV/UZV,
+,,,,,,41,41,600,1.25,Instrument-ESDV/UZV,
+,,,,,,30,30,600,1.5,Instrument-ESDV/UZV,
+,,,,,,65,65,600,2,Instrument-ESDV/UZV,
+,,,,,,101,101,600,3,Instrument-ESDV/UZV,
+,,,,,,215,215,600,4,Instrument-ESDV/UZV,
+,,,,,,513,513,600,6,Instrument-ESDV/UZV,
+,,,,,,902,902,600,8,Instrument-ESDV/UZV,
+,,,,,,1352,1352,600,10,Instrument-ESDV/UZV,
+,,,,,,1797,1797,600,12,Instrument-ESDV/UZV,
+,,,,,,2445,2445,600,14,Instrument-ESDV/UZV,
+,,,,,,3243,3243,600,16,Instrument-ESDV/UZV,
+,,,,,,3903,3903,600,18,Instrument-ESDV/UZV,
+,,,,,,5994,5994,600,20,Instrument-ESDV/UZV,
+,,,,,,7506,7506,600,22,Instrument-ESDV/UZV,
+,,,,,,9578,9578,600,24,Instrument-ESDV/UZV,
+,,,,,,10476,10476,600,26,Instrument-ESDV/UZV,
+,,,,,,12557,12557,600,28,Instrument-ESDV/UZV,
+,,,,,,17948,17948,600,30,Instrument-ESDV/UZV,
+,,,,,,18008,18008,600,32,Instrument-ESDV/UZV,
+,,,,,,20895,20895,600,34,Instrument-ESDV/UZV,
+,,,,,,25910,25910,600,36,Instrument-ESDV/UZV,
+,,,,,,24,24,900,0.75,Instrument-ESDV/UZV,
+,,,,,,59,59,900,1,Instrument-ESDV/UZV,
+,,,,,,92,92,900,1.25,Instrument-ESDV/UZV,
+,,,,,,74,74,900,1.5,Instrument-ESDV/UZV,
+,,,,,,128,128,900,2,Instrument-ESDV/UZV,
+,,,,,,161,161,900,3,Instrument-ESDV/UZV,
+,,,,,,305,305,900,4,Instrument-ESDV/UZV,
+,,,,,,548,548,900,6,Instrument-ESDV/UZV,
+,,,,,,1071,1071,900,8,Instrument-ESDV/UZV,
+,,,,,,1911,1911,900,10,Instrument-ESDV/UZV,
+,,,,,,2495,2495,900,12,Instrument-ESDV/UZV,
+,,,,,,3507,3507,900,14,Instrument-ESDV/UZV,
+,,,,,,4430,4430,900,16,Instrument-ESDV/UZV,
+,,,,,,5384,5384,900,18,Instrument-ESDV/UZV,
+,,,,,,8207,8207,900,20,Instrument-ESDV/UZV,
+,,,,,,11484,11484,900,22,Instrument-ESDV/UZV,
+,,,,,,15368,15368,900,24,Instrument-ESDV/UZV,
+,,,,,,72,72,1500,0.5,Instrument-ESDV/UZV,
+,,,,,,72,72,1500,0.75,Instrument-ESDV/UZV,
+,,,,,,59,59,1500,1,Instrument-ESDV/UZV,
+,,,,,,92,92,1500,1.25,Instrument-ESDV/UZV,
+,,,,,,74,74,1500,1.5,Instrument-ESDV/UZV,
+,,,,,,127,127,1500,2,Instrument-ESDV/UZV,
+,,,,,,253,253,1500,3,Instrument-ESDV/UZV,
+,,,,,,380,380,1500,4,Instrument-ESDV/UZV,
+,,,,,,924,924,1500,6,Instrument-ESDV/UZV,
+,,,,,,1568,1568,1500,8,Instrument-ESDV/UZV,
+,,,,,,2834,2834,1500,10,Instrument-ESDV/UZV,
+,,,,,,4298,4298,1500,12,Instrument-ESDV/UZV,
+,,,,,,5385,5385,1500,14,Instrument-ESDV/UZV,
+,,,,,,7781,7781,1500,16,Instrument-ESDV/UZV,
+,,,,,,45,45,2500,0.5,Instrument-ESDV/UZV,
+,,,,,,60,60,2500,0.75,Instrument-ESDV/UZV,
+,,,,,,90,90,2500,1,Instrument-ESDV/UZV,
+,,,,,,136,136,2500,1.25,Instrument-ESDV/UZV,
+,,,,,,113,113,2500,1.5,Instrument-ESDV/UZV,
+,,,,,,179,179,2500,2,Instrument-ESDV/UZV,
+,,,,,,405,405,2500,3,Instrument-ESDV/UZV,
+,,,,,,771,771,2500,4,Instrument-ESDV/UZV,
+,,,,,,1977,1977,2500,6,Instrument-ESDV/UZV,
+,,,,,,3168,3168,2500,8,Instrument-ESDV/UZV,
+,,,,,,4139,4139,2500,10,Instrument-ESDV/UZV,
+,,,,,,6183,6183,2500,12,Instrument-ESDV/UZV,
+,,,,,,20,20,150,0.25,Instrument-XCV,
+,,,,,,20,20,150,0.375,Instrument-XCV,
+,,,,,,6,6,150,0.5,Instrument-XCV,
+,,,,,,20,20,150,0.75,Instrument-XCV,
+,,,,,,12,12,150,1,Instrument-XCV,
+,,,,,,23,23,150,1.25,Instrument-XCV,
+,,,,,,18,18,150,1.5,Instrument-XCV,
+,,,,,,30,30,150,2,Instrument-XCV,
+,,,,,,53,53,150,2.5,Instrument-XCV,
+,,,,,,53,53,150,3,Instrument-XCV,
+,,,,,,75,75,150,4,Instrument-XCV,
+,,,,,,134,134,150,6,Instrument-XCV,
+,,,,,,207,207,150,8,Instrument-XCV,
+,,,,,,339,339,150,10,Instrument-XCV,
+,,,,,,471,471,150,12,Instrument-XCV,
+,,,,,,20,20,300,0.25,Instrument-XCV,
+,,,,,,20,20,300,0.375,Instrument-XCV,
+,,,,,,7,7,300,0.5,Instrument-XCV,
+,,,,,,11,11,300,0.75,Instrument-XCV,
+,,,,,,14,14,300,1,Instrument-XCV,
+,,,,,,33,33,300,1.25,Instrument-XCV,
+,,,,,,20,20,300,1.5,Instrument-XCV,
+,,,,,,39,39,300,2,Instrument-XCV,
+,,,,,,80,80,300,3,Instrument-XCV,
+,,,,,,117,117,300,4,Instrument-XCV,
+,,,,,,239,239,300,6,Instrument-XCV,
+,,,,,,351,351,300,8,Instrument-XCV,
+,,,,,,561,561,300,10,Instrument-XCV,
+,,,,,,858,858,300,12,Instrument-XCV,
+,,,,,,20,20,600,0.25,Instrument-XCV,
+,,,,,,20,20,600,0.375,Instrument-XCV,
+,,,,,,7,7,600,0.5,Instrument-XCV,
+,,,,,,13,13,600,0.75,Instrument-XCV,
+,,,,,,19,19,600,1,Instrument-XCV,
+,,,,,,34,34,600,1.25,Instrument-XCV,
+,,,,,,25,25,600,1.5,Instrument-XCV,
+,,,,,,54,54,600,2,Instrument-XCV,
+,,,,,,77,77,600,2.5,Instrument-XCV,
+,,,,,,100,100,600,3,Instrument-XCV,
+,,,,,,188,188,600,4,Instrument-XCV,
+,,,,,,407,407,600,6,Instrument-XCV,
+,,,,,,696,696,600,8,Instrument-XCV,
+,,,,,,1053,1053,600,10,Instrument-XCV,
+,,,,,,20,20,900,0.25,Instrument-XCV,
+,,,,,,20,20,900,0.375,Instrument-XCV,
+,,,,,,20,20,900,0.5,Instrument-XCV,
+,,,,,,20,20,900,0.75,Instrument-XCV,
+,,,,,,49,49,900,1,Instrument-XCV,
+,,,,,,77,77,900,1.25,Instrument-XCV,
+,,,,,,62,62,900,1.5,Instrument-XCV,
+,,,,,,107,107,900,2,Instrument-XCV,
+,,,,,,127,127,900,2.5,Instrument-XCV,
+,,,,,,145,145,900,3,Instrument-XCV,
+,,,,,,251,251,900,4,Instrument-XCV,
+,,,,,,507,507,900,6,Instrument-XCV,
+,,,,,,60,60,1500,0.25,Instrument-XCV,
+,,,,,,60,60,1500,0.375,Instrument-XCV,
+,,,,,,60,60,1500,0.5,Instrument-XCV,
+,,,,,,60,60,1500,0.75,Instrument-XCV,
+,,,,,,49,49,1500,1,Instrument-XCV,
+,,,,,,77,77,1500,1.25,Instrument-XCV,
+,,,,,,62,62,1500,1.5,Instrument-XCV,
+,,,,,,106,106,1500,2,Instrument-XCV,
+,,,,,,158,158,1500,2.5,Instrument-XCV,
+,,,,,,211,211,1500,3,Instrument-XCV,
+,,,,,,374,374,1500,4,Instrument-XCV,
+,,,,,,801,801,1500,6,Instrument-XCV,
+,,,,,,38,38,2500,0.5,Instrument-XCV,
+,,,,,,50,50,2500,0.75,Instrument-XCV,
+,,,,,,75,75,2500,1,Instrument-XCV,
+,,,,,,113,113,2500,1.25,Instrument-XCV,
+,,,,,,94,94,2500,1.5,Instrument-XCV,
+,,,,,,153,153,2500,2,Instrument-XCV,
+,,,,,,192,192,2500,2.5,Instrument-XCV,
+,,,,,,184,184,2500,3,Instrument-XCV,
+,,,,,,297,297,2500,4,Instrument-XCV,
+,,,,,,990,990,2500,6,Instrument-XCV,
